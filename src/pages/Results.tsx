@@ -75,13 +75,18 @@ const Results: React.FC = () => {
 
                 // 11. Noise Cancellation
                 if (preferences.noiseCancellation.length > 0) {
-                    if (!preferences.noiseCancellation.includes(item.noiseCancellationType)) isMatch = false;
+                    if (!preferences.noiseCancellation.includes(item.noiseCancellationType ?? 'Nil')) isMatch = false;
                 }
 
                 // 12. Battery
                 if (preferences.batteryLife > 0 && item.connectivity === 'Wireless') {
                     if ((item.batteryLife || 0) < preferences.batteryLife) isMatch = false;
                 }
+
+                // 13. Bass Focus (scoring bonus)
+                if (preferences.bassFocus === 'Sub Bass' && item.subBass !== undefined) score += item.subBass;
+                if (preferences.bassFocus === 'Bass' && item.bass !== undefined) score += item.bass;
+                if (preferences.bassFocus === 'Upper Bass' && item.upperBass !== undefined) score += item.upperBass;
 
                 if (!isMatch) return null;
 

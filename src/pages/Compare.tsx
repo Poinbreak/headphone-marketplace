@@ -1,10 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { headphones } from '../data/headphones';
 import { ChevronDown, X } from 'lucide-react';
 import './Compare.css';
 
 const Compare: React.FC = () => {
-    const [selectedIds, setSelectedIds] = useState<(string | null)[]>([null, null, null]);
+    const [selectedIds, setSelectedIds] = useState<(string | null)[]>(() => {
+        try {
+            const stored = JSON.parse(localStorage.getItem('compareIds') || '[]') as (string | null)[];
+            return [stored[0] ?? null, stored[1] ?? null, stored[2] ?? null];
+        } catch {
+            return [null, null, null];
+        }
+    });
+
+    // Keep localStorage in sync whenever slots change
+    useEffect(() => {
+        localStorage.setItem('compareIds', JSON.stringify(selectedIds));
+    }, [selectedIds]);
 
     const handleSelect = (index: number, id: string) => {
         const newSelected = [...selectedIds];

@@ -1,16 +1,41 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { headphones } from '../data/headphones';
-import { ArrowLeft, Check, X, Star } from 'lucide-react';
+import { ArrowLeft, Check, X, Star, GitCompare } from 'lucide-react';
 import './ProductDetails.css';
 
 const ProductDetails: React.FC = () => {
     const { id } = useParams<{ id: string }>();
+    const navigate = useNavigate();
     const product = headphones.find(h => h.id === id);
 
     if (!product) {
         return <div className="container" style={{ paddingTop: '100px' }}>Product not found</div>;
     }
+
+    const handleCompare = () => {
+        // Read existing compare list (up to 3 slots)
+        const stored = JSON.parse(localStorage.getItem('compareIds') || '[]') as (string | null)[];
+        const slots: (string | null)[] = [stored[0] ?? null, stored[1] ?? null, stored[2] ?? null];
+
+        // Already in list — just navigate
+        if (slots.includes(product.id)) {
+            navigate('/compare');
+            return;
+        }
+
+        // Fill the first empty slot
+        const emptyIdx = slots.findIndex(s => s === null);
+        if (emptyIdx !== -1) {
+            slots[emptyIdx] = product.id;
+        } else {
+            // All slots full — replace the last one
+            slots[2] = product.id;
+        }
+
+        localStorage.setItem('compareIds', JSON.stringify(slots));
+        navigate('/compare');
+    };
 
     return (
         <div className="details-page container">
@@ -43,7 +68,9 @@ const ProductDetails: React.FC = () => {
 
                     <div className="actions">
                         <button className="btn-primary">Buy Now</button>
-                        <Link to="/compare" className="btn-secondary">Compare This</Link>
+                        <button className="btn-secondary with-icon" onClick={handleCompare}>
+                            <GitCompare size={16} /> Compare This
+                        </button>
                     </div>
                 </div>
             </div>
@@ -77,6 +104,33 @@ const ProductDetails: React.FC = () => {
                         )}
                     </ul>
                 </div>
+
+                {(product.subBass !== undefined || product.bass !== undefined || product.upperBass !== undefined) && (
+                    <div className="bass-card glass-panel">
+                        <h3>Bass Response</h3>
+                        <div className="bass-levels">
+                            {[
+                                { label: 'Sub Bass', value: product.subBass, range: '20–60 Hz' },
+                                { label: 'Bass', value: product.bass, range: '60–250 Hz' },
+                                { label: 'Upper Bass', value: product.upperBass, range: '250–500 Hz' },
+                            ].map(({ label, value, range }) => (
+                                <div key={label} className="bass-row">
+                                    <div className="bass-label">
+                                        <span>{label}</span>
+                                        <small>{range}</small>
+                                    </div>
+                                    <div className="bass-bar-wrap">
+                                        <div
+                                            className="bass-bar-fill"
+                                            style={{ width: value !== undefined ? `${value * 10}%` : '0%' }}
+                                        />
+                                    </div>
+                                    <span className="bass-score">{value !== undefined ? `${value}/10` : 'N/A'}</span>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
 
                 <div className="pros-cons-card glass-panel">
                     <div className="pc-col">

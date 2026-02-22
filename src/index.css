@@ -124,3 +124,9 @@ a {
 .btn-secondary:hover {
   background: var(--border);
 }
+
+.with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}

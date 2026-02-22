@@ -18,6 +18,7 @@ export interface Preferences {
     batteryLife: number; // Min hours
     budget: number;
     minRating: number;
+    bassFocus: 'Any' | 'Sub Bass' | 'Bass' | 'Upper Bass';
 }
 
 const FindHeadphones: React.FC = () => {
@@ -38,7 +39,8 @@ const FindHeadphones: React.FC = () => {
         noiseCancellation: [],
         batteryLife: 0,
         budget: 20000,
-        minRating: 0
+        minRating: 0,
+        bassFocus: 'Any'
     });
 
     const nextStep = () => setStep(s => Math.min(s + 1, totalSteps));
@@ -252,6 +254,19 @@ const FindHeadphones: React.FC = () => {
                                 <input type="range" min="1" max="5" step="0.5" value={preferences.minRating}
                                     onChange={(e) => setSingle('minRating', parseFloat(e.target.value))} className="range-slider" />
                                 <span>{preferences.minRating} ★</span>
+                            </div>
+
+                            <p className="step-desc" style={{ marginTop: '2rem' }}>Bass Focus</p>
+                            <div className="options-grid" style={{ gridTemplateColumns: 'repeat(4, 1fr)' }}>
+                                {(['Any', 'Sub Bass', 'Bass', 'Upper Bass'] as const).map(opt => (
+                                    <button
+                                        key={opt}
+                                        className={`option-card ${preferences.bassFocus === opt ? 'selected' : ''}`}
+                                        onClick={() => setSingle('bassFocus', opt)}
+                                    >
+                                        <span className="text-large">{opt}</span>
+                                    </button>
+                                ))}
                             </div>
                         </motion.div>
                     )}

@@ -82,12 +82,13 @@
 
 .details-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 2fr;
     gap: 2rem;
 }
 
 .spec-card,
-.pros-cons-card {
+.pros-cons-card,
+.bass-card {
     padding: 2rem;
 }
 
@@ -137,7 +138,65 @@
         grid-template-columns: 1fr;
     }
 
+
     .pros-cons-card {
         grid-template-columns: 1fr;
     }
+}
+
+/* Bass Levels */
+.bass-levels {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.bass-row {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bass-label {
+    width: 88px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.bass-label span {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.bass-label small {
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+}
+
+.bass-bar-wrap {
+    flex: 1;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 100px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+}
+
+.bass-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), #7c3aed);
+    border-radius: 100px;
+    transition: width 0.6s ease;
+    box-shadow: 0 0 8px var(--accent-glow);
+}
+
+.bass-score {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent);
+    min-width: 36px;
+    text-align: right;
 }

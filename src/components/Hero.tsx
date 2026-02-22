@@ -56,7 +56,7 @@ const Hero: React.FC = () => {
                 >
                     <div className="glowing-circle"></div>
                     <img
-                        src="https://placehold.co/600x600/png?text=Headphone+Visual"
+                        src="/hero-headphone.png"
                         alt="Premium Headphones"
                         className="hero-img"
                     />
