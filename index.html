@@ -1581,6 +1581,7 @@
           <span class="modal-price">${h.price > 0 ? '₹' + h.price.toLocaleString('en-IN') : 'Price N/A'}</span>
           <span class="modal-rating">${stars} ${(h.rating || 0).toFixed(1)} (${(h.reviews || 0).toLocaleString()} reviews)</span>
         </div>
+        <div id="modal-ai-pricing" style="margin-top: 12px; width: 100%;"></div>
       </div>
     </div>
     <h3 class="section-h3">Specifications</h3>
@@ -1613,6 +1614,36 @@
       <a href="https://www.google.com/search?q=${encodeURIComponent(h.name + ' buy')}" target="_blank" class="btn-secondary" style="flex:1;text-decoration:none;justify-content:center">🛒 Buy Online</a>
     </div>`;
       document.getElementById('modal-overlay').classList.add('open');
+      
+      const aiContainer = document.getElementById('modal-ai-pricing');
+      if (aiContainer) {
+        aiContainer.innerHTML = '<span style="font-size:12px;color:var(--w35)">Loading AI analysis...</span>';
+        fetch('http://localhost:5000/competitor-price')
+          .then(res => res.json())
+          .then(data => {
+            if (data && data.competitorPrice) {
+              const compStr = `<div style="font-size:13px; color:var(--w60); margin-bottom: 8px;">Competitor Price: ₹${data.competitorPrice}</div>`;
+              aiContainer.innerHTML = compStr + '<span style="font-size:12px;color:var(--w35)">Analyzing market data...</span>';
+              
+              fetch('http://localhost:5000/ai-price', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ productData: h, competitorPrice: data.competitorPrice })
+              })
+              .then(r => r.json())
+              .then(aiData => {
+                aiContainer.innerHTML = compStr + `
+                  <div style="padding: 10px; border-left: 3px solid var(--cyan); background: rgba(0, 214, 255, 0.05); border-radius: 4px;">
+                    <strong style="color: var(--cyan); font-size: 14px;">AI Suggested Price: ₹${aiData.price}</strong>
+                    <div style="font-size: 11px; margin-top: 4px; line-height: 1.4; color: var(--w60);">${aiData.reason}</div>
+                  </div>
+                `;
+              })
+              .catch(() => { aiContainer.innerHTML = compStr; });
+            }
+          })
+          .catch(() => { aiContainer.innerHTML = ''; });
+      }
     }
 
     function closeModal(e) {

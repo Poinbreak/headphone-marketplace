@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { headphones } from '../data/headphones';
 import { ArrowLeft, Check, X, Star, GitCompare } from 'lucide-react';
@@ -8,6 +8,39 @@ const ProductDetails: React.FC = () => {
     const { id } = useParams<{ id: string }>();
     const navigate = useNavigate();
     const product = headphones.find(h => h.id === id);
+
+    const [competitorPrice, setCompetitorPrice] = useState<number | null>(null);
+    const [aiPriceHint, setAiPriceHint] = useState<{price: number, reason: string} | null>(null);
+
+    useEffect(() => {
+        if (!product) return;
+
+        fetch('http://localhost:5000/competitor-price')
+            .then(res => res.json())
+            .then(data => {
+                if (data && data.competitorPrice) {
+                    setCompetitorPrice(data.competitorPrice);
+
+                    // Once we have competitor price, dynamically fetch AI analysis
+                    fetch('http://localhost:5000/ai-price', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            productData: product,
+                            competitorPrice: data.competitorPrice
+                        })
+                    })
+                    .then(aiRes => aiRes.json())
+                    .then(aiData => {
+                        if (aiData && aiData.price) {
+                            setAiPriceHint(aiData);
+                        }
+                    })
+                    .catch(err => console.error('Error fetching AI price:', err));
+                }
+            })
+            .catch(err => console.error('Error fetching competitor price:', err));
+    }, [product]);
 
     if (!product) {
         return <div className="container" style={{ paddingTop: '100px' }}>Product not found</div>;
@@ -54,6 +87,27 @@ const ProductDetails: React.FC = () => {
                         <span className="count">({product.reviews} reviews)</span>
                     </div>
                     <div className="price-block">₹{product.price}</div>
+                    {competitorPrice !== null && (
+                        <div style={{color: '#888', marginBottom: '8px', fontSize: '15px' }}>
+                            Competitor Price: ₹{competitorPrice}
+                        </div>
+                    )}
+                    {aiPriceHint !== null && (
+                        <div style={{ 
+                            padding: '12px', 
+                            borderRadius: '8px', 
+                            background: 'rgba(255, 255, 255, 0.05)', 
+                            borderLeft: '4px solid var(--accent)',
+                            marginBottom: '16px'
+                        }}>
+                            <strong style={{ color: 'var(--accent)', fontSize: '1.1em' }}>
+                                AI Suggested Price: ₹{aiPriceHint.price}
+                            </strong>
+                            <p style={{ margin: '4px 0 0 0', fontSize: '0.85em', opacity: 0.8, lineHeight: '1.4' }}>
+                                {aiPriceHint.reason}
+                            </p>
+                        </div>
+                    )}
 
                     <div className="tags-row">
                         {product.bestFor.map(tag => (
