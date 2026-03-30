@@ -20,6 +20,8 @@ export interface Headphone {
   pros: string[];
   cons: string[];
   cableDetachable?: boolean;
+  driverSize?: number;
+  sensitivity?: number;
   subBass?: number; // 1–10
   bass?: number;    // 1–10
   upperBass?: number; // 1–10
@@ -51,7 +53,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 94
   },
   {
     "id": "lfrcum5a1",
@@ -78,7 +82,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "49l18ojr6",
@@ -105,7 +111,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "2sg921rrw",
@@ -132,7 +140,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 102
   },
   {
     "id": "ipsqazamk",
@@ -159,7 +169,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "rdcg45zot",
@@ -186,7 +198,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "4lxmuem19",
@@ -213,7 +227,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "8vfc3419j",
@@ -240,7 +256,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "p5owrt21o",
@@ -267,7 +285,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 107
   },
   {
     "id": "cab0kcy56",
@@ -294,7 +314,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "nfb4mjgwg",
@@ -321,7 +343,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "40tmck3ef",
@@ -348,7 +372,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "rkmu3wirz",
@@ -375,7 +401,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "ple2wmyje",
@@ -402,7 +430,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "zm3q39ulz",
@@ -429,7 +459,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "oatmtz7vc",
@@ -456,7 +488,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "ppxx25kk2",
@@ -483,7 +517,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "cbydbs85z",
@@ -510,7 +546,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 92
   },
   {
     "id": "4j8nmwz5k",
@@ -537,7 +575,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 104
   },
   {
     "id": "m392vrgy3",
@@ -564,7 +604,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "y8tvxh7t4",
@@ -591,7 +633,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "j8g2p8q8l",
@@ -618,7 +662,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "lkl1vbmps",
@@ -645,7 +691,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "91vcccen5",
@@ -672,7 +720,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "imo49hpua",
@@ -699,7 +749,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "snsm0igq9",
@@ -726,7 +778,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "3dwx94z63",
@@ -753,7 +807,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "9cafoso8y",
@@ -780,7 +836,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 89
   },
   {
     "id": "vtqe3m88c",
@@ -807,7 +865,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "p29i7blq3",
@@ -834,7 +894,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "znlu6jib7",
@@ -861,7 +923,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "oyjcmtar9",
@@ -888,7 +952,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "bq0xzz6pn",
@@ -915,7 +981,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "hg8cemyrm",
@@ -942,7 +1010,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "hhzkaecw5",
@@ -969,7 +1039,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "ihn48dhwc",
@@ -996,7 +1068,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "eni6zhofk",
@@ -1023,7 +1097,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 40,
+    "sensitivity": 97
   },
   {
     "id": "pptornnlg",
@@ -1050,7 +1126,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "8wexkx4bc",
@@ -1077,7 +1155,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 92
   },
   {
     "id": "hny4p217n",
@@ -1103,7 +1183,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "380ta3ek4",
@@ -1129,7 +1211,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "p7np8lx69",
@@ -1155,7 +1239,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "yhlvc49al",
@@ -1181,7 +1267,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "rixg6xxji",
@@ -1207,7 +1295,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 92
   },
   {
     "id": "t0wxrv7f3",
@@ -1233,7 +1323,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "036jwtqj2",
@@ -1260,7 +1352,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "nhzm7xmfr",
@@ -1287,7 +1381,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "akme1elot",
@@ -1314,7 +1410,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "c28u7res7",
@@ -1341,7 +1439,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "xebou72ea",
@@ -1368,7 +1468,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "jck4x7qll",
@@ -1395,7 +1497,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "l8df0dch5",
@@ -1422,7 +1526,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "83j3ttmdu",
@@ -1449,7 +1555,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 91
   },
   {
     "id": "03ergjgqv",
@@ -1476,7 +1584,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "jowjwkylb",
@@ -1503,7 +1613,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "43qpxxds1",
@@ -1530,7 +1642,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "p2fqeoa4z",
@@ -1557,7 +1671,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "gfz0qb89q",
@@ -1584,7 +1700,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "r2kuzpiuc",
@@ -1611,7 +1729,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "yxvmugyor",
@@ -1638,7 +1758,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "ic3ka6zid",
@@ -1665,7 +1787,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "rsadke2pn",
@@ -1692,7 +1816,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 85
   },
   {
     "id": "kypb33mcy",
@@ -1719,7 +1845,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 103
   },
   {
     "id": "y12zdkl7s",
@@ -1746,7 +1874,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "g5kqlvcet",
@@ -1773,7 +1903,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "d6lb1emjz",
@@ -1800,7 +1932,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "kmgjgctmz",
@@ -1827,7 +1961,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "k1a4ed37y",
@@ -1854,7 +1990,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "468fhzv2y",
@@ -1881,7 +2019,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "gbc0kinnk",
@@ -1908,7 +2048,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "jkerhdqdu",
@@ -1935,7 +2077,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "w30dnr1zu",
@@ -1962,7 +2106,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "3t2hpt9as",
@@ -1989,7 +2135,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "suo8oohu7",
@@ -2016,7 +2164,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "sx7hnfmd9",
@@ -2043,7 +2193,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "kpn7pys8r",
@@ -2070,7 +2222,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "17p5dz4e6",
@@ -2097,7 +2251,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "lnaurz41b",
@@ -2124,7 +2280,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "5plxd0joz",
@@ -2151,7 +2309,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "answp1syt",
@@ -2178,7 +2338,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "ho6p47zrc",
@@ -2205,7 +2367,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "lrkfr01ai",
@@ -2232,7 +2396,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "relxef4mf",
@@ -2259,7 +2425,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 90
   },
   {
     "id": "nc8qhcham",
@@ -2286,7 +2454,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "v5yfoltz3",
@@ -2313,7 +2483,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "rofcc2eoc",
@@ -2340,7 +2512,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "ruwm11y75",
@@ -2367,7 +2541,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "nikhismb1",
@@ -2394,7 +2570,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "pigzft1kk",
@@ -2421,7 +2599,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "he6khoogl",
@@ -2448,7 +2628,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "jx7cig7q7",
@@ -2475,7 +2657,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 90
   },
   {
     "id": "djsghig51",
@@ -2502,7 +2686,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "vhgxw6qs5",
@@ -2529,7 +2715,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "lwf5ik5if",
@@ -2556,7 +2744,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "vpfxuwayx",
@@ -2583,7 +2773,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 101
   },
   {
     "id": "6touwspau",
@@ -2610,7 +2802,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "0ys05se80",
@@ -2637,7 +2831,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "eal2o41ya",
@@ -2664,7 +2860,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 87
   },
   {
     "id": "ws6frm5vo",
@@ -2691,7 +2889,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "k9o6bdd3i",
@@ -2718,7 +2918,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "o0jofmsfv",
@@ -2745,7 +2947,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 101
   },
   {
     "id": "6kg24kl8t",
@@ -2772,7 +2976,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "8byo3sj16",
@@ -2799,7 +3005,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "vel120s0r",
@@ -2826,7 +3034,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "ts71suauu",
@@ -2853,7 +3063,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "r8tshj9or",
@@ -2880,7 +3092,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 108
   },
   {
     "id": "sd74d1s3j",
@@ -2907,7 +3121,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "ju0q5goyj",
@@ -2934,7 +3150,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "f1405ttct",
@@ -2961,7 +3179,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "axfvb27f5",
@@ -2988,7 +3208,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 89
   },
   {
     "id": "06qwvsmni",
@@ -3015,7 +3237,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 103
   },
   {
     "id": "irzvt6k87",
@@ -3042,7 +3266,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "u7iynz1c9",
@@ -3069,7 +3295,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "tse2m6aao",
@@ -3096,7 +3324,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "lsl5x1jru",
@@ -3123,7 +3353,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "4uby7zull",
@@ -3150,7 +3382,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "pv459tooh",
@@ -3177,7 +3411,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "c8avneppj",
@@ -3204,7 +3440,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 89
   },
   {
     "id": "vj036jigq",
@@ -3231,7 +3469,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "sbuj4uz04",
@@ -3258,7 +3498,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "7l450p1kk",
@@ -3285,7 +3527,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "abf88hjbu",
@@ -3312,7 +3556,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 92
   },
   {
     "id": "uz3wn5593",
@@ -3339,7 +3585,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "49dzdarzr",
@@ -3366,7 +3614,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 91
   },
   {
     "id": "ejhjlbxzm",
@@ -3393,7 +3643,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "gt9ywctuj",
@@ -3420,7 +3672,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "dwc9d05gx",
@@ -3447,7 +3701,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "50pahs44m",
@@ -3474,7 +3730,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "f3fpoc9b5",
@@ -3501,7 +3759,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "8oegkh6o0",
@@ -3528,7 +3788,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "3o613oz7z",
@@ -3555,7 +3817,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 40,
+    "sensitivity": 90
   },
   {
     "id": "esqevdbre",
@@ -3582,7 +3846,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "n2jn1hiqc",
@@ -3609,7 +3875,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "ri778z1jh",
@@ -3636,7 +3904,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "zs3lhnpmr",
@@ -3663,7 +3933,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "9v2272x7q",
@@ -3690,7 +3962,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "u58dpq5ox",
@@ -3717,7 +3991,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "sodyjjjfs",
@@ -3744,7 +4020,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "eup14hbaa",
@@ -3771,7 +4049,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "qi0wqxplf",
@@ -3798,7 +4078,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 97
   },
   {
     "id": "n9ouz9390",
@@ -3825,7 +4107,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "ygqkdbwqg",
@@ -3852,7 +4136,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "0d4od5spq",
@@ -3879,7 +4165,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 90
   },
   {
     "id": "f1z8hcm23",
@@ -3906,7 +4194,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "nqsawlcjw",
@@ -3933,7 +4223,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "jajog68sx",
@@ -3960,7 +4252,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "yn2s4pib4",
@@ -3987,7 +4281,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "vrq3d44o5",
@@ -4014,7 +4310,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "mznyca35o",
@@ -4041,7 +4339,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 91
   },
   {
     "id": "a9rvruy5w",
@@ -4068,7 +4368,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "yq8au1i6i",
@@ -4095,7 +4397,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "lqyapp0i9",
@@ -4122,7 +4426,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "5w019klp7",
@@ -4149,7 +4455,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "slgwahbwz",
@@ -4176,7 +4484,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 92
   },
   {
     "id": "hrxvanilz",
@@ -4203,7 +4513,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "it608lvr1",
@@ -4230,7 +4542,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "si4fhq3av",
@@ -4257,7 +4571,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "rk898xrad",
@@ -4284,7 +4600,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "yazia3yb3",
@@ -4311,7 +4629,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "kvb7r6xct",
@@ -4338,7 +4658,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "dopiqfilu",
@@ -4365,7 +4687,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "sh74iynws",
@@ -4392,7 +4716,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "hadl1fe6l",
@@ -4419,7 +4745,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "celfumbvm",
@@ -4446,7 +4774,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "mn6pdm0wc",
@@ -4473,7 +4803,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "g9bmy10u1",
@@ -4500,7 +4832,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "f5cnoqvdb",
@@ -4527,7 +4861,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 87
   },
   {
     "id": "jrgkgvxb6",
@@ -4554,7 +4890,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "8qvpp8xl8",
@@ -4581,7 +4919,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 91
   },
   {
     "id": "iaw98dnhl",
@@ -4608,7 +4948,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 87
   },
   {
     "id": "x1wutbt2b",
@@ -4635,7 +4977,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "kcnm890y3",
@@ -4662,7 +5006,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 94
   },
   {
     "id": "9h04xe8gl",
@@ -4689,7 +5035,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "n7ydos22i",
@@ -4716,7 +5064,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "2nomve17b",
@@ -4743,7 +5093,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 85
   },
   {
     "id": "l9bqtkpnk",
@@ -4770,7 +5122,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "uuy8en9pi",
@@ -4797,7 +5151,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 92
   },
   {
     "id": "u03s3eich",
@@ -4824,7 +5180,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 89
   },
   {
     "id": "eqc80cwph",
@@ -4851,7 +5209,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "0hg0wgv1y",
@@ -4878,7 +5238,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "b52uqndmi",
@@ -4905,7 +5267,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "na2769b6w",
@@ -4932,7 +5296,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "34qsxq82n",
@@ -4959,7 +5325,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "ecfcv0kz0",
@@ -4986,7 +5354,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 108
   },
   {
     "id": "zfvym98jh",
@@ -5013,7 +5383,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "u3jq7ss96",
@@ -5040,7 +5412,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "ghl0gxi4x",
@@ -5067,7 +5441,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "2h93a3j21",
@@ -5094,7 +5470,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "c1gtwds9t",
@@ -5121,7 +5499,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "84ytfn587",
@@ -5148,7 +5528,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "gc1rx63g7",
@@ -5175,7 +5557,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "0cq29cq6y",
@@ -5202,7 +5586,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "9upkby41v",
@@ -5229,7 +5615,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "j1a8s26m9",
@@ -5256,7 +5644,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "ho9y49nrg",
@@ -5283,7 +5673,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "3r0tu5d8n",
@@ -5310,7 +5702,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "uq5br954o",
@@ -5337,7 +5731,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "fv20wzlnq",
@@ -5364,7 +5760,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "udpzlv1x8",
@@ -5391,7 +5789,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "os0mh1a4x",
@@ -5418,7 +5818,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "e69ikpada",
@@ -5445,7 +5847,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "evrfg3c7z",
@@ -5472,7 +5876,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "o46dd27k7",
@@ -5499,7 +5905,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "bjhcudqe4",
@@ -5526,7 +5934,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "095yd3rxl",
@@ -5553,7 +5963,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 103
   },
   {
     "id": "aukaviy7a",
@@ -5580,7 +5992,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "9z26xhq1v",
@@ -5607,7 +6021,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "nx77e30rf",
@@ -5634,7 +6050,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "86g15ro6m",
@@ -5661,7 +6079,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 104
   },
   {
     "id": "xtubto21q",
@@ -5688,7 +6108,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "ms5uggzcz",
@@ -5715,7 +6137,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "fh349nvl9",
@@ -5742,7 +6166,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "phbhi47e3",
@@ -5769,7 +6195,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "d3zkz35th",
@@ -5796,7 +6224,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "ri6rjbow3",
@@ -5823,7 +6253,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "y72b7hocm",
@@ -5850,7 +6282,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "20no7ws6s",
@@ -5877,7 +6311,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "k23jxyj0d",
@@ -5904,7 +6340,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "aihfkiix0",
@@ -5931,7 +6369,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "abn2l65uv",
@@ -5958,7 +6398,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "nuai70pr5",
@@ -5985,7 +6427,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "axka7a7si",
@@ -6012,7 +6456,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "8enlq5ohl",
@@ -6039,7 +6485,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "b8cyxemqc",
@@ -6066,7 +6514,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "rx0rtkgcv",
@@ -6093,7 +6543,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 108
   },
   {
     "id": "u64mv3d76",
@@ -6120,7 +6572,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "6whn314rw",
@@ -6147,7 +6601,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "yg5m6l8rr",
@@ -6174,7 +6630,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "abg3fr8b0",
@@ -6201,7 +6659,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "6gosxvvpg",
@@ -6228,7 +6688,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "o0xucc9az",
@@ -6255,7 +6717,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "04ur93d4p",
@@ -6282,7 +6746,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "niy8ax3zg",
@@ -6309,7 +6775,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "tcpxg2mwp",
@@ -6336,7 +6804,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "kwgx1y49v",
@@ -6363,7 +6833,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "8ekulauym",
@@ -6390,7 +6862,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "tcnvb451y",
@@ -6417,7 +6891,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "5asav2v2k",
@@ -6444,7 +6920,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "z7ymrhh8s",
@@ -6471,7 +6949,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 94
   },
   {
     "id": "x25ws55pk",
@@ -6498,7 +6978,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "njckj0wsr",
@@ -6525,7 +7007,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "8mj7dur88",
@@ -6552,7 +7036,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "f2jvv14mj",
@@ -6579,7 +7065,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "bb5nn4all",
@@ -6606,7 +7094,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "2k5zv3o4v",
@@ -6633,7 +7123,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "eoeqjiqvc",
@@ -6660,7 +7152,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "h43ir8cns",
@@ -6687,7 +7181,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "0r5dv01gw",
@@ -6714,7 +7210,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 85
   },
   {
     "id": "v98v6qny0",
@@ -6741,7 +7239,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 97
   },
   {
     "id": "xqaqo6j7k",
@@ -6768,7 +7268,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "9czpaacv3",
@@ -6795,7 +7297,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "e6dwcyfxc",
@@ -6822,7 +7326,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "lwov19dki",
@@ -6849,7 +7355,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "4impyxabs",
@@ -6876,7 +7384,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "j4h9jhoxt",
@@ -6903,7 +7413,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "jzf7bcmhs",
@@ -6930,7 +7442,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "qtude636f",
@@ -6957,7 +7471,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "7q5pmhnp0",
@@ -6984,7 +7500,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "pt6r4zzkl",
@@ -7011,7 +7529,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "p5ikxh2qa",
@@ -7038,7 +7558,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "bmnmlqj46",
@@ -7065,7 +7587,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "c17om3zbr",
@@ -7092,7 +7616,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "ckqa2gee2",
@@ -7119,7 +7645,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "m84r0qvgy",
@@ -7146,7 +7674,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "p2f1hf19d",
@@ -7173,7 +7703,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "x6bgfx0oo",
@@ -7200,7 +7732,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 90
   },
   {
     "id": "7nj7q0sr1",
@@ -7227,7 +7761,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "fhmwjwm11",
@@ -7254,7 +7790,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "kypxer8mf",
@@ -7281,7 +7819,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "256zhm5x9",
@@ -7308,7 +7848,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "chpamir3s",
@@ -7335,7 +7877,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "y0hwjz1yj",
@@ -7362,7 +7906,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "8tx1i47ra",
@@ -7389,7 +7935,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "xr4y28x2j",
@@ -7416,7 +7964,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 11,
+    "sensitivity": 108
   },
   {
     "id": "fw6i2ndo0",
@@ -7443,7 +7993,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 5,
     "bass": 7,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "y7v1ily5b",
@@ -7470,7 +8022,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "jr6qr8z04",
@@ -7497,7 +8051,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "gjqumnmyw",
@@ -7524,7 +8080,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "m8w5x0838",
@@ -7551,7 +8109,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 30,
+    "sensitivity": 91
   },
   {
     "id": "88mqccrzu",
@@ -7578,7 +8138,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "3rthbyvmt",
@@ -7605,7 +8167,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "7yde7guh7",
@@ -7632,7 +8196,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "w9l1dkp2z",
@@ -7659,7 +8225,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "4uis2nq8z",
@@ -7686,7 +8254,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 92
   },
   {
     "id": "p9w2jxol7",
@@ -7713,7 +8283,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "3lultxgo2",
@@ -7740,7 +8312,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "lji3z1epm",
@@ -7767,7 +8341,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "zg1vmtv7d",
@@ -7794,7 +8370,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "whfdvx3dd",
@@ -7821,7 +8399,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "1exzk2z4g",
@@ -7848,7 +8428,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "lopw9sf79",
@@ -7875,7 +8457,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "c2dlk3rd1",
@@ -7902,7 +8486,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "v8rdr8fyu",
@@ -7929,7 +8515,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "3u3t3troe",
@@ -7956,7 +8544,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "0yqonyqws",
@@ -7983,7 +8573,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "dqbmlzayn",
@@ -8010,7 +8602,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "y1vl9zplv",
@@ -8037,7 +8631,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "wc0jm4qyc",
@@ -8064,7 +8660,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "9y611hj26",
@@ -8091,7 +8689,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "ihg7hyd1s",
@@ -8118,7 +8718,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 89
   },
   {
     "id": "jb6emrigs",
@@ -8145,7 +8747,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "eyf5d49ty",
@@ -8172,7 +8776,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "qqwjyu1s1",
@@ -8199,7 +8805,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "nfbnz22v1",
@@ -8226,7 +8834,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "o1aacftnf",
@@ -8253,7 +8863,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "vadbcu97i",
@@ -8280,7 +8892,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "0tnc7e2lp",
@@ -8307,7 +8921,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "2a99ytzwf",
@@ -8334,7 +8950,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "jp22thzk9",
@@ -8361,7 +8979,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "huzzx18fp",
@@ -8388,7 +9008,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "5v78yocs0",
@@ -8415,7 +9037,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 8,
+    "sensitivity": 97
   },
   {
     "id": "u2l43xx8d",
@@ -8442,7 +9066,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 50,
+    "sensitivity": 85
   },
   {
     "id": "b1op1nkcc",
@@ -8469,7 +9095,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "0ezd3eoj2",
@@ -8496,7 +9124,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "gcud12jnu",
@@ -8523,7 +9153,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "kjzv3i6f8",
@@ -8550,7 +9182,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "20aom85ol",
@@ -8577,7 +9211,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "uagmh3hag",
@@ -8604,7 +9240,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "0saz520er",
@@ -8631,7 +9269,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "48971hvkg",
@@ -8658,7 +9298,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "b9xufplrw",
@@ -8685,7 +9327,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "c976rbrbi",
@@ -8712,7 +9356,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "oskaku0ei",
@@ -8739,7 +9385,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 91
   },
   {
     "id": "8vq228njs",
@@ -8766,7 +9414,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "sscr7zbvu",
@@ -8793,7 +9443,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "73qr0go3i",
@@ -8820,7 +9472,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "lx4cou1zr",
@@ -8847,7 +9501,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "bh1ozeazo",
@@ -8874,7 +9530,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "j9bvhaw0z",
@@ -8901,7 +9559,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "248qjx6bk",
@@ -8928,7 +9588,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "ktavolcuw",
@@ -8955,7 +9617,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "lcwsvhiva",
@@ -8982,7 +9646,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "2qq3d81p8",
@@ -9009,7 +9675,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "5ywjyf6mb",
@@ -9036,7 +9704,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "4rey2dlkr",
@@ -9063,7 +9733,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "t7hlarlnq",
@@ -9090,7 +9762,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "q5bdq2p99",
@@ -9117,7 +9791,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "2qychasth",
@@ -9144,7 +9820,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "1kxbtxzru",
@@ -9171,7 +9849,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "2xlyy3iu6",
@@ -9198,7 +9878,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "4lzif131u",
@@ -9225,7 +9907,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "hmm158m3o",
@@ -9252,7 +9936,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "rcxyjc9t4",
@@ -9279,7 +9965,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "wcgofc4m2",
@@ -9306,7 +9994,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 92
   },
   {
     "id": "marj41xe2",
@@ -9333,7 +10023,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "5nd52stfb",
@@ -9360,7 +10052,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "8nyr3hlam",
@@ -9387,7 +10081,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "dopn8h9nt",
@@ -9414,7 +10110,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "jyn2ajhcr",
@@ -9441,7 +10139,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "ozbejsl8t",
@@ -9468,7 +10168,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "7piijbh8i",
@@ -9495,7 +10197,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 92
   },
   {
     "id": "bqeyohv2f",
@@ -9522,7 +10226,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "lk09gv957",
@@ -9549,7 +10255,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "sbxe2cvt3",
@@ -9576,7 +10284,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "77em9m6vo",
@@ -9603,7 +10313,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "5m43skqy4",
@@ -9630,7 +10342,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "h6z6i5813",
@@ -9657,7 +10371,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "d3vj87uqi",
@@ -9684,7 +10400,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 92
   },
   {
     "id": "ji8skgwt3",
@@ -9711,7 +10429,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "zf5q974pm",
@@ -9738,7 +10458,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "dc03o7fa8",
@@ -9765,7 +10487,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "h18awuac8",
@@ -9792,7 +10516,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "nesup5rnb",
@@ -9819,7 +10545,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "qk9h1l69f",
@@ -9846,7 +10574,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "fzj3w61cy",
@@ -9873,7 +10603,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "5w30kpyfh",
@@ -9900,7 +10632,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "53mp4345m",
@@ -9927,7 +10661,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "akf26bkbb",
@@ -9954,7 +10690,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "zn57ehlam",
@@ -9981,7 +10719,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "i7my31lev",
@@ -10008,7 +10748,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "crfamgtle",
@@ -10035,7 +10777,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "fxh7bc6b5",
@@ -10062,7 +10806,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "g372skp8e",
@@ -10089,7 +10835,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "556gi7yhk",
@@ -10116,7 +10864,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "g7fels9cq",
@@ -10143,7 +10893,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 107
   },
   {
     "id": "0r5l9nj0h",
@@ -10170,7 +10922,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "zd0ar4j83",
@@ -10197,7 +10951,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "h02r7dba7",
@@ -10224,7 +10980,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 94
   },
   {
     "id": "rgtpr1r2t",
@@ -10251,7 +11009,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "mollhkgb8",
@@ -10278,7 +11038,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "a2f6hwrrw",
@@ -10305,7 +11067,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "7ujbbwvs3",
@@ -10332,7 +11096,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "72mbenqxs",
@@ -10359,7 +11125,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "zanq2kb1k",
@@ -10386,7 +11154,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "ryqwfpfj3",
@@ -10413,7 +11183,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "2eiz7pyke",
@@ -10440,7 +11212,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "mo4z0xmpt",
@@ -10467,7 +11241,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "4amwutj41",
@@ -10494,7 +11270,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 90
   },
   {
     "id": "fm4v3poun",
@@ -10521,7 +11299,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "517j7j5la",
@@ -10548,7 +11328,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "p89wcnora",
@@ -10575,7 +11357,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "1kpd0kzzh",
@@ -10602,7 +11386,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "jo0di5ezj",
@@ -10629,7 +11415,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "z0nt8g2m8",
@@ -10656,7 +11444,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 89
   },
   {
     "id": "s77ot1cjj",
@@ -10683,7 +11473,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "u79tae1eg",
@@ -10710,7 +11502,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 95
   },
   {
     "id": "gcicj2hnm",
@@ -10737,7 +11531,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "04e9hw9qc",
@@ -10764,7 +11560,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "8xlqdhfy7",
@@ -10791,7 +11589,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "3hf5ldp6z",
@@ -10818,7 +11618,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "i65536ux8",
@@ -10845,7 +11647,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "7xexc23nq",
@@ -10872,7 +11676,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "p7cs6arb2",
@@ -10899,7 +11705,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "jayue549j",
@@ -10926,7 +11734,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 104
   },
   {
     "id": "52yfws2ea",
@@ -10953,7 +11763,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 14,
+    "sensitivity": 90
   },
   {
     "id": "x2dcl88bz",
@@ -10980,7 +11792,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 5,
     "bass": 7,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 50,
+    "sensitivity": 92
   },
   {
     "id": "fdna3ceyc",
@@ -11007,7 +11821,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "cs5ctxqjt",
@@ -11034,7 +11850,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "fmn1fhgbm",
@@ -11061,7 +11879,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 85
   },
   {
     "id": "t1c0p3q2e",
@@ -11088,7 +11908,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "ll1d5xh3l",
@@ -11115,7 +11937,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "j77eh2acr",
@@ -11142,7 +11966,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "kavoibdzu",
@@ -11169,7 +11995,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 107
   },
   {
     "id": "buw7f9yly",
@@ -11196,7 +12024,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "qja1ucs7z",
@@ -11223,7 +12053,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "mh6km8i5o",
@@ -11250,7 +12082,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "pqn8bixu5",
@@ -11277,7 +12111,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "9j7d255k0",
@@ -11304,7 +12140,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "ili5o3bhv",
@@ -11331,7 +12169,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 87
   },
   {
     "id": "szohmkngc",
@@ -11358,7 +12198,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 45,
+    "sensitivity": 108
   },
   {
     "id": "o2rm7qnik",
@@ -11385,7 +12227,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "vcb595xv8",
@@ -11412,7 +12256,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "o5ko0e7st",
@@ -11439,7 +12285,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "5l1upg4wh",
@@ -11466,7 +12314,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "qyojpfh9g",
@@ -11493,7 +12343,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "dsxag29st",
@@ -11520,7 +12372,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "fd5ioito3",
@@ -11547,7 +12401,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "i0wi08u9i",
@@ -11574,7 +12430,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "u2av6l8oj",
@@ -11601,7 +12459,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "g1vljqxvi",
@@ -11628,7 +12488,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "ak3mdkiih",
@@ -11655,7 +12517,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "npu92g7f2",
@@ -11682,7 +12546,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "6r2bbe72v",
@@ -11709,7 +12575,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "lbx9cr9g9",
@@ -11736,7 +12604,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "fmh5y7d0u",
@@ -11763,7 +12633,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "l273kmxeg",
@@ -11790,7 +12662,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 89
   },
   {
     "id": "x40v0ozc9",
@@ -11817,7 +12691,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "87eag06yo",
@@ -11844,7 +12720,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "koymubei7",
@@ -11871,7 +12749,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "u4u3pyfbo",
@@ -11898,7 +12778,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "5zn3g6tdx",
@@ -11925,7 +12807,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "wgsnpm4ef",
@@ -11952,7 +12836,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "en26gj2w1",
@@ -11979,7 +12865,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "s7j5xnw6v",
@@ -12006,7 +12894,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 91
   },
   {
     "id": "vynl6p38n",
@@ -12033,7 +12923,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "jf9dzjcrg",
@@ -12060,7 +12952,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "j7shqx7f8",
@@ -12087,7 +12981,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "7uyvk7wip",
@@ -12114,7 +13010,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "kjm16lc33",
@@ -12141,7 +13039,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "if1d46x0a",
@@ -12168,7 +13068,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "hk1mm9umj",
@@ -12195,7 +13097,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "kwetokcw2",
@@ -12222,7 +13126,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "kc5ik6188",
@@ -12249,7 +13155,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "gowduz3g6",
@@ -12276,7 +13184,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 85
   },
   {
     "id": "ko5t93g0u",
@@ -12303,7 +13213,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "3a2ahn0q0",
@@ -12330,7 +13242,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "rd3jjbhex",
@@ -12357,7 +13271,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "yy0qtxt2i",
@@ -12384,7 +13300,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "gbtnx4r5b",
@@ -12411,7 +13329,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "7m88i3i9k",
@@ -12438,7 +13358,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "rmquyjqj5",
@@ -12465,7 +13387,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "awnsguzgq",
@@ -12492,7 +13416,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 85
   },
   {
     "id": "n9mypp3ul",
@@ -12519,7 +13445,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "3t9e01jkf",
@@ -12546,7 +13474,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "mrcrg2dqr",
@@ -12573,7 +13503,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "6e6q9dyym",
@@ -12600,7 +13532,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 91
   },
   {
     "id": "bn9tvuawj",
@@ -12627,7 +13561,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "7m18w6ay3",
@@ -12654,7 +13590,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "r35g1zzwt",
@@ -12681,7 +13619,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "jzluds2vz",
@@ -12708,7 +13648,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "16t3nq0ea",
@@ -12735,7 +13677,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 108
   },
   {
     "id": "i95m6kq1l",
@@ -12762,7 +13706,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "w30urfr3u",
@@ -12789,7 +13735,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 89
   },
   {
     "id": "5kpr521mp",
@@ -12816,7 +13764,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 102
   },
   {
     "id": "ughij2rc7",
@@ -12843,7 +13793,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "9xvzf1nfb",
@@ -12870,7 +13822,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 89
   },
   {
     "id": "8nldieig8",
@@ -12897,7 +13851,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 91
   },
   {
     "id": "1zj3yxf9y",
@@ -12924,7 +13880,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "d6fdugfi8",
@@ -12951,7 +13909,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "ux6pdn0wq",
@@ -12978,7 +13938,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 107
   },
   {
     "id": "ywedxb4sw",
@@ -13005,7 +13967,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 14,
+    "sensitivity": 95
   },
   {
     "id": "4j6tgmvav",
@@ -13032,7 +13996,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 5,
     "bass": 7,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "ldx154qkr",
@@ -13059,7 +14025,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "5wtl7g9l9",
@@ -13086,7 +14054,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 97
   },
   {
     "id": "u6stlwc0o",
@@ -13113,7 +14083,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 108
   },
   {
     "id": "srem0zibr",
@@ -13140,7 +14112,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "nolo8ctql",
@@ -13167,7 +14141,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "yqwprjtc2",
@@ -13194,7 +14170,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "iq3wfw6wb",
@@ -13221,7 +14199,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "z4p1zy4pw",
@@ -13248,7 +14228,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "tbi6vc3mj",
@@ -13275,7 +14257,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "zjcidlt7e",
@@ -13302,7 +14286,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "6jdt5grsq",
@@ -13329,7 +14315,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "vu2augmk4",
@@ -13356,7 +14344,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "41p5ie4ym",
@@ -13383,7 +14373,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "00qjog530",
@@ -13410,7 +14402,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 90
   },
   {
     "id": "qzhlvf7cf",
@@ -13437,7 +14431,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "4nelcnd58",
@@ -13464,7 +14460,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "zcpnvc2ac",
@@ -13491,7 +14489,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "fuj6ak2v7",
@@ -13518,7 +14518,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "1iq79nceg",
@@ -13545,7 +14547,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 89
   },
   {
     "id": "14otuym6p",
@@ -13572,7 +14576,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "vs0v1klmk",
@@ -13599,7 +14605,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "8sw1kf6o8",
@@ -13626,7 +14634,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 14,
+    "sensitivity": 101
   },
   {
     "id": "02ispbrdv",
@@ -13653,7 +14663,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "htxx5w62p",
@@ -13680,7 +14692,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "xzyumak8z",
@@ -13707,7 +14721,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "rpzubycnz",
@@ -13734,7 +14750,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "h21azhtv6",
@@ -13761,7 +14779,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "f1pqd0kt5",
@@ -13788,7 +14808,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 89
   },
   {
     "id": "kfktxzgs4",
@@ -13815,7 +14837,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "xrl4ni87y",
@@ -13842,7 +14866,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 97
   },
   {
     "id": "klaamhh2q",
@@ -13869,7 +14895,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "9kkupctsm",
@@ -13896,7 +14924,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "0cu1y591d",
@@ -13923,7 +14953,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "ntnbekqz0",
@@ -13950,7 +14982,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 89
   },
   {
     "id": "8qpoe7zxg",
@@ -13977,7 +15011,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "wa3lnkrna",
@@ -14004,7 +15040,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 89
   },
   {
     "id": "yov7j7d64",
@@ -14031,7 +15069,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 87
   },
   {
     "id": "v9a3wjxy6",
@@ -14058,7 +15098,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "qn8fydhp2",
@@ -14085,7 +15127,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "0r6xik653",
@@ -14112,7 +15156,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "9osctvppi",
@@ -14139,7 +15185,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "9tzuvru2q",
@@ -14166,7 +15214,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "ulb0haqbl",
@@ -14193,7 +15243,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "scizrckji",
@@ -14220,7 +15272,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "f071uvhjy",
@@ -14247,7 +15301,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "o7bj17t0s",
@@ -14274,7 +15330,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "b15zhazsg",
@@ -14301,7 +15359,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 87
   },
   {
     "id": "j5ssrjppz",
@@ -14328,7 +15388,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "0u8bl1f6i",
@@ -14355,7 +15417,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "co8vvn5ag",
@@ -14382,7 +15446,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "ae6yfhbbv",
@@ -14409,7 +15475,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 103
   },
   {
     "id": "g5zzhlsvy",
@@ -14436,7 +15504,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "cv67sn77a",
@@ -14463,7 +15533,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "0qkea5su4",
@@ -14490,7 +15562,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "0zyj4s6hq",
@@ -14517,7 +15591,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "1vo2menvg",
@@ -14544,7 +15620,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "2q80h77ww",
@@ -14571,7 +15649,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "ttqn13luu",
@@ -14598,7 +15678,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "7en98i04p",
@@ -14625,7 +15707,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "eybv6crhz",
@@ -14652,7 +15736,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "6taygma7t",
@@ -14679,7 +15765,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "yfjj4dtql",
@@ -14706,7 +15794,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "ij63tl6fb",
@@ -14733,7 +15823,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "lpi7wptcu",
@@ -14760,7 +15852,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 89
   },
   {
     "id": "ip69zs6q4",
@@ -14787,7 +15881,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "kkqampj9e",
@@ -14814,7 +15910,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "05xzvszhp",
@@ -14841,7 +15939,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "574yue2fv",
@@ -14868,7 +15968,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "6gnyt4cvq",
@@ -14895,7 +15997,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "xcg56xvcz",
@@ -14922,7 +16026,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 94
   },
   {
     "id": "vb37mqp8j",
@@ -14949,7 +16055,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "yzy9qmig5",
@@ -14976,7 +16084,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "fp7mkvdt6",
@@ -15003,7 +16113,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "9gay5wx4l",
@@ -15030,7 +16142,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "kf0duju9r",
@@ -15057,7 +16171,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "j8r8s5ozi",
@@ -15084,7 +16200,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "wqo94x286",
@@ -15111,7 +16229,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "yx52hvvcc",
@@ -15138,7 +16258,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "v34loz113",
@@ -15165,7 +16287,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "eq12s3cjn",
@@ -15192,7 +16316,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "mfv2whygq",
@@ -15219,7 +16345,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 87
   },
   {
     "id": "hzijfnorr",
@@ -15246,7 +16374,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "tge811jrt",
@@ -15273,7 +16403,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "tlabqxttk",
@@ -15300,7 +16432,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "zs7lxeua3",
@@ -15327,7 +16461,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "2d2c6u0eu",
@@ -15354,7 +16490,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "1u6aorn2v",
@@ -15381,7 +16519,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "n7h4dyull",
@@ -15408,7 +16548,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "9xi8l9gtx",
@@ -15435,7 +16577,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "2kfxjyp25",
@@ -15462,7 +16606,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 102
   },
   {
     "id": "mgkmhnbdk",
@@ -15489,7 +16635,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "mz1fb4m2a",
@@ -15516,7 +16664,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "z3vks2u8f",
@@ -15543,7 +16693,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "nrygha4ex",
@@ -15570,7 +16722,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 87
   },
   {
     "id": "kfnxsz8cs",
@@ -15597,7 +16751,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "r0iqw17xk",
@@ -15624,7 +16780,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "2704z8thm",
@@ -15651,7 +16809,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "ol9i8t0q3",
@@ -15678,7 +16838,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "txdepithx",
@@ -15705,7 +16867,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 5,
     "bass": 7,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "27ath92u0",
@@ -15732,7 +16896,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "5777o34lm",
@@ -15759,7 +16925,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "jf1sgq6za",
@@ -15786,7 +16954,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "o6kmb6iyh",
@@ -15813,7 +16983,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "hwfntfdt4",
@@ -15840,7 +17012,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "kxq1yhcr0",
@@ -15867,7 +17041,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "ogeohc6cv",
@@ -15894,7 +17070,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "cuop9glnj",
@@ -15921,7 +17099,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "xtrfxqo84",
@@ -15948,7 +17128,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "cyh0xa2sx",
@@ -15975,7 +17157,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "clm5bv6l5",
@@ -16002,7 +17186,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "sec1hs5yb",
@@ -16029,7 +17215,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "nfnh7iwkr",
@@ -16056,7 +17244,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "yr3utcqfh",
@@ -16083,7 +17273,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "885v35dhu",
@@ -16110,7 +17302,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "q6wkw9q4c",
@@ -16137,7 +17331,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "dlbvuw6d8",
@@ -16164,7 +17360,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "iyr7wwh24",
@@ -16191,7 +17389,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "p1sy11f5a",
@@ -16218,7 +17418,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "0pivmcxgx",
@@ -16245,7 +17447,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "tv1tvy88u",
@@ -16272,7 +17476,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "4e17ogo9v",
@@ -16299,7 +17505,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "b0i10gbj0",
@@ -16326,7 +17534,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "hzokmuoq8",
@@ -16353,7 +17563,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "19qzsqhuj",
@@ -16380,7 +17592,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "wbf3qhsk4",
@@ -16407,7 +17621,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "2vk9wx79y",
@@ -16434,7 +17650,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 104
   },
   {
     "id": "1wsg83g93",
@@ -16461,7 +17679,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "pq9zxq91a",
@@ -16488,7 +17708,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "i611jcw2v",
@@ -16515,7 +17737,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "pt3n79fr6",
@@ -16542,7 +17766,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "uav4l0gcw",
@@ -16569,7 +17795,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "0euqwjel2",
@@ -16596,7 +17824,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "wjxbrqf7t",
@@ -16623,7 +17853,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "0o3hjv6jp",
@@ -16650,7 +17882,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "ipoh5iha1",
@@ -16677,7 +17911,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "o9x15i1ed",
@@ -16704,7 +17940,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "x8i1tjn4k",
@@ -16731,7 +17969,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "4tlglglu4",
@@ -16758,7 +17998,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "wb229zf0v",
@@ -16785,7 +18027,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "26apyzhca",
@@ -16812,7 +18056,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "xuzrh5cmi",
@@ -16839,7 +18085,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 104
   },
   {
     "id": "xs5mh58l7",
@@ -16866,7 +18114,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 90
   },
   {
     "id": "axmkuymha",
@@ -16893,7 +18143,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "u4eb9rumo",
@@ -16920,7 +18172,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "dvqst5wzn",
@@ -16947,7 +18201,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "09rejoly4",
@@ -16974,7 +18230,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "ddme7k7pn",
@@ -17001,7 +18259,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "xhypztcrm",
@@ -17028,7 +18288,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "t7s5dzrll",
@@ -17055,7 +18317,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "zaz6dsoal",
@@ -17082,7 +18346,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "r9ndcca7u",
@@ -17109,7 +18375,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "bgug6wd28",
@@ -17136,7 +18404,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "gfx89bwz2",
@@ -17163,7 +18433,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "iassckdqm",
@@ -17190,7 +18462,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "oaeqa7kpb",
@@ -17217,7 +18491,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "93dzv1qig",
@@ -17244,7 +18520,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "n7vco672w",
@@ -17271,7 +18549,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 103
   },
   {
     "id": "vmfnvaazy",
@@ -17298,7 +18578,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "5r1htx2kw",
@@ -17325,7 +18607,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "q45zr1cvv",
@@ -17352,7 +18636,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "jci2u2644",
@@ -17379,7 +18665,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "0cx534bvl",
@@ -17406,7 +18694,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "e083dccz9",
@@ -17433,7 +18723,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "a1isgvkdz",
@@ -17460,7 +18752,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 5,
     "bass": 7,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "b5gaj29ju",
@@ -17487,7 +18781,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "kaphbx06o",
@@ -17514,7 +18810,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "mrns0waf4",
@@ -17541,7 +18839,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "me2ewnlaw",
@@ -17568,7 +18868,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "hncc1l957",
@@ -17595,7 +18897,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "8tyh3lwvq",
@@ -17622,7 +18926,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "p4m8k1mdj",
@@ -17649,7 +18955,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 89
   },
   {
     "id": "j1nr7y0i4",
@@ -17676,7 +18984,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 94
   },
   {
     "id": "645bjo4yi",
@@ -17703,7 +19013,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 91
   },
   {
     "id": "e5qoxdk1t",
@@ -17730,7 +19042,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 97
   },
   {
     "id": "npw1ev4q1",
@@ -17757,7 +19071,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 103
   },
   {
     "id": "v0wxo87h3",
@@ -17784,7 +19100,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "u3anc30kg",
@@ -17811,7 +19129,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "yrmjle16u",
@@ -17838,7 +19158,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "uqh5p7sab",
@@ -17865,7 +19187,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "wf8pddiah",
@@ -17892,7 +19216,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "i1ic0wm0p",
@@ -17919,7 +19245,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "heb6tv92a",
@@ -17946,7 +19274,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "m43nw2wsh",
@@ -17973,7 +19303,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "ptp73wtop",
@@ -18000,7 +19332,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "ywhlzvn29",
@@ -18027,7 +19361,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "pkrsib0k9",
@@ -18054,7 +19390,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "6jvrkfd8r",
@@ -18081,7 +19419,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 108
   },
   {
     "id": "f2q95nrmb",
@@ -18108,7 +19448,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 102
   },
   {
     "id": "2aif2qu10",
@@ -18135,7 +19477,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "ma3eu1rqs",
@@ -18162,7 +19506,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "t5dbsjtow",
@@ -18189,7 +19535,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "gflnbka5w",
@@ -18216,7 +19564,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "7lq8uogu7",
@@ -18243,7 +19593,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "0es4rpghp",
@@ -18270,7 +19622,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "sah2z06dh",
@@ -18297,7 +19651,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "lculub0ng",
@@ -18324,7 +19680,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "bqbe21un5",
@@ -18351,7 +19709,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 104
   },
   {
     "id": "274lchc2o",
@@ -18378,7 +19738,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "z67012ufd",
@@ -18405,7 +19767,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "m7mpfoczp",
@@ -18432,7 +19796,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "qxmhu3iaw",
@@ -18459,7 +19825,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "vqgw8vdp1",
@@ -18486,7 +19854,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "qc4y89jhc",
@@ -18513,7 +19883,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "p13mbnxxq",
@@ -18540,7 +19912,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "9hvrx4gbf",
@@ -18567,7 +19941,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "g8h13q2k5",
@@ -18594,7 +19970,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "ln9i743t9",
@@ -18621,7 +19999,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "bp0xdkhm7",
@@ -18648,7 +20028,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "7w1lj5nat",
@@ -18675,7 +20057,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "izyifj77c",
@@ -18702,7 +20086,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "q365t8jmr",
@@ -18729,7 +20115,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "75ptbvq6r",
@@ -18756,7 +20144,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "oz4yznqfc",
@@ -18783,7 +20173,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "4lb928owd",
@@ -18810,7 +20202,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "pyoiaj5zd",
@@ -18837,7 +20231,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 85
   },
   {
     "id": "bz410se0i",
@@ -18864,7 +20260,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "f7uryo8wp",
@@ -18891,7 +20289,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "2tmvpwo0c",
@@ -18918,7 +20318,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "ec4ol9u31",
@@ -18945,7 +20347,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "f50wt8l2w",
@@ -18972,7 +20376,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "lag4tnfqb",
@@ -18999,7 +20405,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "qektwabnu",
@@ -19026,7 +20434,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "91j8l0y8m",
@@ -19053,7 +20463,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "bdd2o6y9h",
@@ -19080,7 +20492,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "w5055svji",
@@ -19107,7 +20521,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "5i291xw62",
@@ -19134,7 +20550,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "hu8yzu2wt",
@@ -19161,7 +20579,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 91
   },
   {
     "id": "wzbiwi2wj",
@@ -19188,7 +20608,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "jxho13hx7",
@@ -19215,7 +20637,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 91
   },
   {
     "id": "l6n48wkfe",
@@ -19242,7 +20666,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "talgol2ch",
@@ -19269,7 +20695,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "1gfp4g3p9",
@@ -19296,7 +20724,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "tqeb6tthm",
@@ -19323,7 +20753,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "9m70d68je",
@@ -19350,7 +20782,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "nqinw28g6",
@@ -19377,7 +20811,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 104
   },
   {
     "id": "sotie5buf",
@@ -19404,7 +20840,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "nrq9u1wc3",
@@ -19431,7 +20869,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "6rtkk8ha2",
@@ -19458,7 +20898,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "r6o4lpm74",
@@ -19485,7 +20927,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "8r7r6hgb0",
@@ -19512,7 +20956,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "itilf9kon",
@@ -19539,7 +20985,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "pqv23k477",
@@ -19566,7 +21014,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "8phrb52vp",
@@ -19593,7 +21043,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "baoounvh5",
@@ -19620,7 +21072,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "ib9n86kfc",
@@ -19647,7 +21101,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "b1ypkb2h6",
@@ -19674,7 +21130,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "6d80c0h7f",
@@ -19701,7 +21159,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "3gbg05rdb",
@@ -19728,7 +21188,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 108
   },
   {
     "id": "yqs40t6qx",
@@ -19755,7 +21217,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "xsc3imp04",
@@ -19782,7 +21246,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "nicmy9mgs",
@@ -19809,7 +21275,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "x1bzh457l",
@@ -19836,7 +21304,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "k61dsiquc",
@@ -19863,7 +21333,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "1ha5ul5bs",
@@ -19890,7 +21362,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "atgtxe4x9",
@@ -19917,7 +21391,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "0pswx1f28",
@@ -19944,7 +21420,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 92
   },
   {
     "id": "5x8md0e8n",
@@ -19971,7 +21449,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "cigt78vmp",
@@ -19998,7 +21478,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "jjrt9t1a3",
@@ -20025,7 +21507,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "ooj5byv2t",
@@ -20052,7 +21536,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "lugny2mtf",
@@ -20079,7 +21565,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "hahsgug0x",
@@ -20106,7 +21594,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "ab3s5jm4h",
@@ -20133,7 +21623,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "6xftfh64b",
@@ -20160,7 +21652,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "eidd0fny1",
@@ -20187,7 +21681,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "2fo5vpm49",
@@ -20214,7 +21710,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "upri9rjgg",
@@ -20241,7 +21739,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 85
   },
   {
     "id": "6eeozidul",
@@ -20268,7 +21768,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "dasvuqnaw",
@@ -20295,7 +21797,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "7gczmhiri",
@@ -20322,7 +21826,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "9lpnjf8rw",
@@ -20349,7 +21855,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 14,
+    "sensitivity": 97
   },
   {
     "id": "f88szwq1f",
@@ -20376,7 +21884,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 45,
+    "sensitivity": 94
   },
   {
     "id": "6i8xds6m7",
@@ -20403,7 +21913,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "fjt0pkdq1",
@@ -20430,7 +21942,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "waa8r4y1y",
@@ -20457,7 +21971,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "patv8stg7",
@@ -20484,7 +22000,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "kbmpdjlsm",
@@ -20511,7 +22029,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "4fsd5rlwg",
@@ -20538,7 +22058,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "8bn8tck92",
@@ -20565,7 +22087,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "cxbloahbh",
@@ -20592,7 +22116,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "zopuvqkx3",
@@ -20619,7 +22145,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "21gthy09q",
@@ -20646,7 +22174,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "7hjk9r43m",
@@ -20673,7 +22203,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "f5xfl90j5",
@@ -20700,7 +22232,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "03tefptrk",
@@ -20727,7 +22261,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "myj1xouuc",
@@ -20754,7 +22290,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "rzcavf7tf",
@@ -20781,7 +22319,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "fcib3aw02",
@@ -20808,7 +22348,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 85
   },
   {
     "id": "zqriliilb",
@@ -20835,7 +22377,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "h3z5gtuam",
@@ -20862,7 +22406,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "sih90lv7x",
@@ -20889,7 +22435,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 90
   },
   {
     "id": "ivzgzenph",
@@ -20916,7 +22464,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "nxx48cqec",
@@ -20943,7 +22493,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "lswamaxfq",
@@ -20970,7 +22522,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "coxgsoghm",
@@ -20997,7 +22551,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 91
   },
   {
     "id": "u1sun9xp5",
@@ -21024,7 +22580,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "dvtyujn2s",
@@ -21051,7 +22609,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 101
   },
   {
     "id": "mllm5mh4r",
@@ -21078,7 +22638,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "g7bwx9wyr",
@@ -21105,7 +22667,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 89
   },
   {
     "id": "bret7td14",
@@ -21132,7 +22696,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 94
   },
   {
     "id": "vzehg77ft",
@@ -21159,7 +22725,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "2p285fcz2",
@@ -21186,7 +22754,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "wesn9592s",
@@ -21213,7 +22783,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "fxvoz8uoa",
@@ -21240,7 +22812,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "ln33nzggm",
@@ -21267,7 +22841,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "0k9pfhk86",
@@ -21294,7 +22870,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "dvd08ajts",
@@ -21321,7 +22899,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "rdsvegyag",
@@ -21348,7 +22928,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 94
   },
   {
     "id": "66xnbrrlc",
@@ -21375,7 +22957,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "y84aj9tfn",
@@ -21402,7 +22986,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "0seq1d4xc",
@@ -21429,7 +23015,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "g4xl8dtm4",
@@ -21456,7 +23044,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "f9hsx0ydr",
@@ -21483,7 +23073,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 10,
+    "sensitivity": 107
   },
   {
     "id": "wpuxkqhbp",
@@ -21510,7 +23102,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 5,
     "bass": 7,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "5zhk8h9a8",
@@ -21537,7 +23131,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "0gummgfse",
@@ -21564,7 +23160,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "kqfisbyj3",
@@ -21591,7 +23189,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 91
   },
   {
     "id": "csf502pko",
@@ -21618,7 +23218,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "6lm9fkxql",
@@ -21645,7 +23247,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "i79357d09",
@@ -21672,7 +23276,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "63nxo1uox",
@@ -21699,7 +23305,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 89
   },
   {
     "id": "99a3ejapx",
@@ -21726,7 +23334,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "06yqgrklg",
@@ -21753,7 +23363,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "ful8x2vkk",
@@ -21780,7 +23392,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 90
   },
   {
     "id": "zjmvtbuw2",
@@ -21807,7 +23421,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "tpffjcgq3",
@@ -21834,7 +23450,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "6v2g1i5oa",
@@ -21861,7 +23479,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "9802e8ogl",
@@ -21888,7 +23508,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "rlliqbh2p",
@@ -21915,7 +23537,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "1keiahauq",
@@ -21942,7 +23566,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "eqcb5z3e2",
@@ -21969,7 +23595,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "zs31ac5up",
@@ -21996,7 +23624,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 103
   },
   {
     "id": "fe1cq1bao",
@@ -22023,7 +23653,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "sdzm7m17g",
@@ -22050,7 +23682,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 89
   },
   {
     "id": "dchlqnnx8",
@@ -22077,7 +23711,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "27o0mojxa",
@@ -22104,7 +23740,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "isi7yv3vi",
@@ -22131,7 +23769,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "l7hqcurak",
@@ -22158,7 +23798,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "c90s9htbc",
@@ -22185,7 +23827,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "8bwxk85t4",
@@ -22212,7 +23856,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "juc3urc1k",
@@ -22239,7 +23885,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "5f1dpq7yz",
@@ -22266,7 +23914,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "dwb0ujejw",
@@ -22293,7 +23943,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "7sssgb0vm",
@@ -22320,7 +23972,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "ds60r61dx",
@@ -22347,7 +24001,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "5rcx6z1d3",
@@ -22374,7 +24030,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "j436ls024",
@@ -22401,7 +24059,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 85
   },
   {
     "id": "30kcpugsk",
@@ -22428,7 +24088,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "ky3xew79c",
@@ -22455,7 +24117,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 108
   },
   {
     "id": "q6crz5yk0",
@@ -22482,7 +24146,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "mhsxok2ji",
@@ -22509,7 +24175,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "7b4u4f6rf",
@@ -22536,7 +24204,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "1j5943u60",
@@ -22563,7 +24233,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "6p8awqles",
@@ -22590,7 +24262,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 103
   },
   {
     "id": "uyacnuctq",
@@ -22617,7 +24291,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "z69wd87u1",
@@ -22644,7 +24320,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "mzej9xld8",
@@ -22671,7 +24349,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "1or5l7j6n",
@@ -22698,7 +24378,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "cwx6xaepx",
@@ -22725,7 +24407,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "g6has78d7",
@@ -22752,7 +24436,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "6rfla8hy8",
@@ -22779,7 +24465,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "bauy94b0k",
@@ -22806,7 +24494,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "idi4gmaik",
@@ -22833,7 +24523,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "2xodwb2xg",
@@ -22860,7 +24552,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "c7diab92w",
@@ -22887,7 +24581,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 90
   },
   {
     "id": "su4udy10e",
@@ -22914,7 +24610,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "1qghmlknk",
@@ -22941,7 +24639,9 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "hnwix98ro",
@@ -22968,6 +24668,8 @@ export const headphones: Headphone[] = [
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 108
   }
-]
+];

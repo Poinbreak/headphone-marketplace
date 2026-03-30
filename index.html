@@ -1219,7 +1219,7 @@
       noiseCancellation: [], batteryLife: 0, budget: 20000, minRating: 0, bassFocus: 'Any'
     };
 
-    fetch('public/headphones_data.json')
+    fetch('/headphones_data.json')
       .then(r => r.json())
       .then(data => {
         ALL_HEADPHONES = data.filter(h => h.price > 0 && h.name && h.image);
@@ -1480,6 +1480,8 @@
         <span class="meta-pill">${h.connectivity}</span>
         ${h.noiseCancellationType ? `<span class="meta-pill">${h.noiseCancellationType} NC</span>` : ''}
         ${h.batteryLife ? `<span class="meta-pill">${h.batteryLife}h</span>` : ''}
+        ${h.driverSize ? `<span class="meta-pill">Driver: ${h.driverSize} mm</span>` : ''}
+        ${h.sensitivity ? `<span class="meta-pill">Sensitivity: ${h.sensitivity} dB</span>` : ''}
       </div>
       <div class="hp-card-footer">
         <span class="hp-price">₹${h.price.toLocaleString('en-IN')}</span>
@@ -1591,6 +1593,8 @@
       <div class="spec-item"><div class="spec-label">Wireless Protocol</div><div class="spec-val">${h.wirelessProtocol || '—'}</div></div>
       <div class="spec-item"><div class="spec-label">Sub Bass</div><div class="spec-val">${h.subBass || '—'}/10</div></div>
       <div class="spec-item"><div class="spec-label">Bass / Upper Bass</div><div class="spec-val">${h.bass || '—'} / ${h.upperBass || '—'}</div></div>
+      <div class="spec-item"><div class="spec-label">Driver Size</div><div class="spec-val">${h.driverSize ? h.driverSize + ' mm' : '—'}</div></div>
+      <div class="spec-item"><div class="spec-label">Sensitivity</div><div class="spec-val">${h.sensitivity ? h.sensitivity + ' dB' : '—'}</div></div>
     </div>
     <h3 class="section-h3">Best For</h3>
     <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px">

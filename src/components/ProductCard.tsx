@@ -39,6 +39,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, rank }) => {
                     <span className="spec-tag">{product.type}</span>
                     <span className="spec-tag">{product.connectivity}</span>
                     {product.noiseCancellationType !== 'Nil' && <span className="spec-tag">{product.noiseCancellationType}</span>}
+                    {product.driverSize && <span className="spec-tag">Driver: {product.driverSize} mm</span>}
+                    {product.sensitivity && <span className="spec-tag">Sensitivity: {product.sensitivity} dB</span>}
                 </div>
 
                 <div className="pros-cons-preview">

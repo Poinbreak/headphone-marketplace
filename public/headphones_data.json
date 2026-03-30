@@ -1,5 +1,3 @@
-﻿
-
 [
   {
     "id": "2dg051ntj",
@@ -26,7 +24,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "lfrcum5a1",
@@ -53,7 +53,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "49l18ojr6",
@@ -80,7 +82,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 85
   },
   {
     "id": "2sg921rrw",
@@ -107,7 +111,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 97
   },
   {
     "id": "ipsqazamk",
@@ -134,7 +140,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "rdcg45zot",
@@ -161,7 +169,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "4lxmuem19",
@@ -188,7 +198,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 92
   },
   {
     "id": "8vfc3419j",
@@ -215,7 +227,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "p5owrt21o",
@@ -242,7 +256,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "cab0kcy56",
@@ -269,7 +285,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "nfb4mjgwg",
@@ -296,7 +314,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "40tmck3ef",
@@ -323,7 +343,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "rkmu3wirz",
@@ -350,7 +372,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "ple2wmyje",
@@ -377,7 +401,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "zm3q39ulz",
@@ -404,7 +430,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "oatmtz7vc",
@@ -431,7 +459,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "ppxx25kk2",
@@ -458,7 +488,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "cbydbs85z",
@@ -485,7 +517,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 103
   },
   {
     "id": "4j8nmwz5k",
@@ -512,7 +546,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "m392vrgy3",
@@ -539,7 +575,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "y8tvxh7t4",
@@ -566,7 +604,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "j8g2p8q8l",
@@ -593,7 +633,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "lkl1vbmps",
@@ -620,7 +662,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "91vcccen5",
@@ -647,7 +691,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "imo49hpua",
@@ -674,7 +720,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "snsm0igq9",
@@ -701,7 +749,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "3dwx94z63",
@@ -728,7 +778,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "9cafoso8y",
@@ -755,7 +807,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "vtqe3m88c",
@@ -782,7 +836,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "p29i7blq3",
@@ -809,7 +865,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "znlu6jib7",
@@ -836,7 +894,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 90
   },
   {
     "id": "oyjcmtar9",
@@ -863,7 +923,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "bq0xzz6pn",
@@ -890,7 +952,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "hg8cemyrm",
@@ -917,7 +981,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "hhzkaecw5",
@@ -944,7 +1010,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "ihn48dhwc",
@@ -971,7 +1039,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "eni6zhofk",
@@ -998,7 +1068,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "pptornnlg",
@@ -1025,7 +1097,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "8wexkx4bc",
@@ -1052,7 +1126,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "hny4p217n",
@@ -1078,7 +1154,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "380ta3ek4",
@@ -1104,7 +1182,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "p7np8lx69",
@@ -1130,7 +1210,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "yhlvc49al",
@@ -1156,7 +1238,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "rixg6xxji",
@@ -1182,7 +1266,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "t0wxrv7f3",
@@ -1208,7 +1294,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 91
   },
   {
     "id": "036jwtqj2",
@@ -1235,7 +1323,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "nhzm7xmfr",
@@ -1262,7 +1352,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "akme1elot",
@@ -1289,7 +1381,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "c28u7res7",
@@ -1316,7 +1410,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "xebou72ea",
@@ -1343,7 +1439,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "jck4x7qll",
@@ -1370,7 +1468,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "l8df0dch5",
@@ -1397,7 +1497,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "83j3ttmdu",
@@ -1424,7 +1526,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "03ergjgqv",
@@ -1451,7 +1555,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "jowjwkylb",
@@ -1478,7 +1584,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "43qpxxds1",
@@ -1505,7 +1613,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "p2fqeoa4z",
@@ -1532,7 +1642,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "gfz0qb89q",
@@ -1559,7 +1671,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "r2kuzpiuc",
@@ -1586,7 +1700,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "yxvmugyor",
@@ -1613,7 +1729,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "ic3ka6zid",
@@ -1640,7 +1758,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "rsadke2pn",
@@ -1667,7 +1787,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 95
   },
   {
     "id": "kypb33mcy",
@@ -1694,7 +1816,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "y12zdkl7s",
@@ -1721,7 +1845,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "g5kqlvcet",
@@ -1748,7 +1874,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "d6lb1emjz",
@@ -1775,7 +1903,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "kmgjgctmz",
@@ -1802,7 +1932,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "k1a4ed37y",
@@ -1829,7 +1961,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "468fhzv2y",
@@ -1856,7 +1990,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "gbc0kinnk",
@@ -1883,7 +2019,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "jkerhdqdu",
@@ -1910,7 +2048,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "w30dnr1zu",
@@ -1937,7 +2077,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "3t2hpt9as",
@@ -1964,7 +2106,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 104
   },
   {
     "id": "suo8oohu7",
@@ -1991,7 +2135,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "sx7hnfmd9",
@@ -2018,7 +2164,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "kpn7pys8r",
@@ -2045,7 +2193,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "17p5dz4e6",
@@ -2072,7 +2222,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "lnaurz41b",
@@ -2099,7 +2251,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "5plxd0joz",
@@ -2126,7 +2280,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 92
   },
   {
     "id": "answp1syt",
@@ -2153,7 +2309,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "ho6p47zrc",
@@ -2180,7 +2338,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 92
   },
   {
     "id": "lrkfr01ai",
@@ -2207,7 +2367,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "relxef4mf",
@@ -2234,7 +2396,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "nc8qhcham",
@@ -2261,7 +2425,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "v5yfoltz3",
@@ -2288,7 +2454,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "rofcc2eoc",
@@ -2315,7 +2483,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 92
   },
   {
     "id": "ruwm11y75",
@@ -2342,7 +2512,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "nikhismb1",
@@ -2369,7 +2541,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "pigzft1kk",
@@ -2396,7 +2570,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 40,
+    "sensitivity": 85
   },
   {
     "id": "he6khoogl",
@@ -2423,7 +2599,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "jx7cig7q7",
@@ -2450,7 +2628,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 101
   },
   {
     "id": "djsghig51",
@@ -2477,7 +2657,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 103
   },
   {
     "id": "vhgxw6qs5",
@@ -2504,7 +2686,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "lwf5ik5if",
@@ -2531,7 +2715,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "vpfxuwayx",
@@ -2558,7 +2744,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "6touwspau",
@@ -2585,7 +2773,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "0ys05se80",
@@ -2612,7 +2802,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "eal2o41ya",
@@ -2639,7 +2831,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "ws6frm5vo",
@@ -2666,7 +2860,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "k9o6bdd3i",
@@ -2693,7 +2889,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "o0jofmsfv",
@@ -2720,7 +2918,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "6kg24kl8t",
@@ -2747,7 +2947,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "8byo3sj16",
@@ -2774,7 +2976,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "vel120s0r",
@@ -2801,7 +3005,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "ts71suauu",
@@ -2828,7 +3034,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "r8tshj9or",
@@ -2855,7 +3063,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 91
   },
   {
     "id": "sd74d1s3j",
@@ -2882,7 +3092,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "ju0q5goyj",
@@ -2909,7 +3121,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "f1405ttct",
@@ -2936,7 +3150,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "axfvb27f5",
@@ -2963,7 +3179,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "06qwvsmni",
@@ -2990,7 +3208,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "irzvt6k87",
@@ -3017,7 +3237,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "u7iynz1c9",
@@ -3044,7 +3266,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "tse2m6aao",
@@ -3071,7 +3295,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 94
   },
   {
     "id": "lsl5x1jru",
@@ -3098,7 +3324,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "4uby7zull",
@@ -3125,7 +3353,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 108
   },
   {
     "id": "pv459tooh",
@@ -3152,7 +3382,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "c8avneppj",
@@ -3179,7 +3411,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "vj036jigq",
@@ -3206,7 +3440,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "sbuj4uz04",
@@ -3233,7 +3469,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "7l450p1kk",
@@ -3260,7 +3498,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "abf88hjbu",
@@ -3287,7 +3527,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "uz3wn5593",
@@ -3314,7 +3556,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "49dzdarzr",
@@ -3341,7 +3585,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "ejhjlbxzm",
@@ -3368,7 +3614,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "gt9ywctuj",
@@ -3395,7 +3643,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "dwc9d05gx",
@@ -3422,7 +3672,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "50pahs44m",
@@ -3449,7 +3701,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "f3fpoc9b5",
@@ -3476,7 +3730,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 95
   },
   {
     "id": "8oegkh6o0",
@@ -3503,7 +3759,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "3o613oz7z",
@@ -3530,7 +3788,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "esqevdbre",
@@ -3557,7 +3817,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "n2jn1hiqc",
@@ -3584,7 +3846,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 101
   },
   {
     "id": "ri778z1jh",
@@ -3611,7 +3875,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "zs3lhnpmr",
@@ -3638,7 +3904,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "9v2272x7q",
@@ -3665,7 +3933,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "u58dpq5ox",
@@ -3692,7 +3962,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "sodyjjjfs",
@@ -3719,7 +3991,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "eup14hbaa",
@@ -3746,7 +4020,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "qi0wqxplf",
@@ -3773,7 +4049,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "n9ouz9390",
@@ -3800,7 +4078,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "ygqkdbwqg",
@@ -3827,7 +4107,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "0d4od5spq",
@@ -3854,7 +4136,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "f1z8hcm23",
@@ -3881,7 +4165,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "nqsawlcjw",
@@ -3908,7 +4194,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "jajog68sx",
@@ -3935,7 +4223,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "yn2s4pib4",
@@ -3962,7 +4252,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "vrq3d44o5",
@@ -3989,7 +4281,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 102
   },
   {
     "id": "mznyca35o",
@@ -4016,7 +4310,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "a9rvruy5w",
@@ -4043,7 +4339,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "yq8au1i6i",
@@ -4070,7 +4368,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "lqyapp0i9",
@@ -4097,7 +4397,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "5w019klp7",
@@ -4124,7 +4426,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 97
   },
   {
     "id": "slgwahbwz",
@@ -4151,7 +4455,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "hrxvanilz",
@@ -4178,7 +4484,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "it608lvr1",
@@ -4205,7 +4513,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "si4fhq3av",
@@ -4232,7 +4542,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "rk898xrad",
@@ -4259,7 +4571,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "yazia3yb3",
@@ -4286,7 +4600,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "kvb7r6xct",
@@ -4313,7 +4629,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 94
   },
   {
     "id": "dopiqfilu",
@@ -4340,7 +4658,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "sh74iynws",
@@ -4367,7 +4687,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "hadl1fe6l",
@@ -4394,7 +4716,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "celfumbvm",
@@ -4421,7 +4745,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "mn6pdm0wc",
@@ -4448,7 +4774,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "g9bmy10u1",
@@ -4475,7 +4803,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 103
   },
   {
     "id": "f5cnoqvdb",
@@ -4502,7 +4832,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "jrgkgvxb6",
@@ -4529,7 +4861,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "8qvpp8xl8",
@@ -4556,7 +4890,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 91
   },
   {
     "id": "iaw98dnhl",
@@ -4583,7 +4919,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "x1wutbt2b",
@@ -4610,7 +4948,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "kcnm890y3",
@@ -4637,7 +4977,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "9h04xe8gl",
@@ -4664,7 +5006,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "n7ydos22i",
@@ -4691,7 +5035,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "2nomve17b",
@@ -4718,7 +5064,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "l9bqtkpnk",
@@ -4745,7 +5093,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "uuy8en9pi",
@@ -4772,7 +5122,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "u03s3eich",
@@ -4799,7 +5151,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "eqc80cwph",
@@ -4826,7 +5180,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "0hg0wgv1y",
@@ -4853,7 +5209,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "b52uqndmi",
@@ -4880,7 +5238,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "na2769b6w",
@@ -4907,7 +5267,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "34qsxq82n",
@@ -4934,7 +5296,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "ecfcv0kz0",
@@ -4961,7 +5325,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "zfvym98jh",
@@ -4988,7 +5354,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "u3jq7ss96",
@@ -5015,7 +5383,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "ghl0gxi4x",
@@ -5042,7 +5412,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "2h93a3j21",
@@ -5069,7 +5441,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "c1gtwds9t",
@@ -5096,7 +5470,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "84ytfn587",
@@ -5123,7 +5499,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "gc1rx63g7",
@@ -5150,7 +5528,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "0cq29cq6y",
@@ -5177,7 +5557,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 91
   },
   {
     "id": "9upkby41v",
@@ -5204,7 +5586,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "j1a8s26m9",
@@ -5231,7 +5615,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "ho9y49nrg",
@@ -5258,7 +5644,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "3r0tu5d8n",
@@ -5285,7 +5673,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "uq5br954o",
@@ -5312,7 +5702,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "fv20wzlnq",
@@ -5339,7 +5731,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "udpzlv1x8",
@@ -5366,7 +5760,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "os0mh1a4x",
@@ -5393,7 +5789,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 91
   },
   {
     "id": "e69ikpada",
@@ -5420,7 +5818,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "evrfg3c7z",
@@ -5447,7 +5847,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 107
   },
   {
     "id": "o46dd27k7",
@@ -5474,7 +5876,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "bjhcudqe4",
@@ -5501,7 +5905,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "095yd3rxl",
@@ -5528,7 +5934,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "aukaviy7a",
@@ -5555,7 +5963,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "9z26xhq1v",
@@ -5582,7 +5992,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "nx77e30rf",
@@ -5609,7 +6021,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "86g15ro6m",
@@ -5636,7 +6050,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "xtubto21q",
@@ -5663,7 +6079,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "ms5uggzcz",
@@ -5690,7 +6108,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "fh349nvl9",
@@ -5717,7 +6137,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "phbhi47e3",
@@ -5744,7 +6166,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "d3zkz35th",
@@ -5771,7 +6195,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "ri6rjbow3",
@@ -5798,7 +6224,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "y72b7hocm",
@@ -5825,7 +6253,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "20no7ws6s",
@@ -5852,7 +6282,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 90
   },
   {
     "id": "k23jxyj0d",
@@ -5879,7 +6311,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "aihfkiix0",
@@ -5906,7 +6340,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "abn2l65uv",
@@ -5933,7 +6369,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "nuai70pr5",
@@ -5960,7 +6398,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "axka7a7si",
@@ -5987,7 +6427,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "8enlq5ohl",
@@ -6014,7 +6456,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "b8cyxemqc",
@@ -6041,7 +6485,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "rx0rtkgcv",
@@ -6068,7 +6514,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "u64mv3d76",
@@ -6095,7 +6543,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 92
   },
   {
     "id": "6whn314rw",
@@ -6122,7 +6572,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "yg5m6l8rr",
@@ -6149,7 +6601,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "abg3fr8b0",
@@ -6176,7 +6630,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "6gosxvvpg",
@@ -6203,7 +6659,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "o0xucc9az",
@@ -6230,7 +6688,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "04ur93d4p",
@@ -6257,7 +6717,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 101
   },
   {
     "id": "niy8ax3zg",
@@ -6284,7 +6746,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 30,
+    "sensitivity": 91
   },
   {
     "id": "tcpxg2mwp",
@@ -6311,7 +6775,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "kwgx1y49v",
@@ -6338,7 +6804,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "8ekulauym",
@@ -6365,7 +6833,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "tcnvb451y",
@@ -6392,7 +6862,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "5asav2v2k",
@@ -6419,7 +6891,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "z7ymrhh8s",
@@ -6446,7 +6920,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "x25ws55pk",
@@ -6473,7 +6949,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "njckj0wsr",
@@ -6500,7 +6978,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "8mj7dur88",
@@ -6527,7 +7007,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "f2jvv14mj",
@@ -6554,7 +7036,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "bb5nn4all",
@@ -6581,7 +7065,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "2k5zv3o4v",
@@ -6608,7 +7094,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "eoeqjiqvc",
@@ -6635,7 +7123,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "h43ir8cns",
@@ -6662,7 +7152,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "0r5dv01gw",
@@ -6689,7 +7181,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "v98v6qny0",
@@ -6716,7 +7210,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "xqaqo6j7k",
@@ -6743,7 +7239,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "9czpaacv3",
@@ -6770,7 +7268,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "e6dwcyfxc",
@@ -6797,7 +7297,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 103
   },
   {
     "id": "lwov19dki",
@@ -6824,7 +7326,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 101
   },
   {
     "id": "4impyxabs",
@@ -6851,7 +7355,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "j4h9jhoxt",
@@ -6878,7 +7384,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 102
   },
   {
     "id": "jzf7bcmhs",
@@ -6905,7 +7413,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "qtude636f",
@@ -6932,7 +7442,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "7q5pmhnp0",
@@ -6959,7 +7471,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 95
   },
   {
     "id": "pt6r4zzkl",
@@ -6986,7 +7500,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "p5ikxh2qa",
@@ -7013,7 +7529,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "bmnmlqj46",
@@ -7040,7 +7558,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 91
   },
   {
     "id": "c17om3zbr",
@@ -7067,7 +7587,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 89
   },
   {
     "id": "ckqa2gee2",
@@ -7094,7 +7616,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "m84r0qvgy",
@@ -7121,7 +7645,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "p2f1hf19d",
@@ -7148,7 +7674,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "x6bgfx0oo",
@@ -7175,7 +7703,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "7nj7q0sr1",
@@ -7202,7 +7732,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "fhmwjwm11",
@@ -7229,7 +7761,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "kypxer8mf",
@@ -7256,7 +7790,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "256zhm5x9",
@@ -7283,7 +7819,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "chpamir3s",
@@ -7310,7 +7848,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "y0hwjz1yj",
@@ -7337,7 +7877,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 90
   },
   {
     "id": "8tx1i47ra",
@@ -7364,7 +7906,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "xr4y28x2j",
@@ -7391,7 +7935,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 10,
+    "sensitivity": 98
   },
   {
     "id": "fw6i2ndo0",
@@ -7418,7 +7964,9 @@
     "cons": [],
     "subBass": 5,
     "bass": 7,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "y7v1ily5b",
@@ -7445,7 +7993,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "jr6qr8z04",
@@ -7472,7 +8022,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "gjqumnmyw",
@@ -7499,7 +8051,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "m8w5x0838",
@@ -7526,7 +8080,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "88mqccrzu",
@@ -7553,7 +8109,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "3rthbyvmt",
@@ -7580,7 +8138,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "7yde7guh7",
@@ -7607,7 +8167,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "w9l1dkp2z",
@@ -7634,7 +8196,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "4uis2nq8z",
@@ -7661,7 +8225,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 102
   },
   {
     "id": "p9w2jxol7",
@@ -7688,7 +8254,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "3lultxgo2",
@@ -7715,7 +8283,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 108
   },
   {
     "id": "lji3z1epm",
@@ -7742,7 +8312,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "zg1vmtv7d",
@@ -7769,7 +8341,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "whfdvx3dd",
@@ -7796,7 +8370,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "1exzk2z4g",
@@ -7823,7 +8399,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "lopw9sf79",
@@ -7850,7 +8428,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "c2dlk3rd1",
@@ -7877,7 +8457,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "v8rdr8fyu",
@@ -7904,7 +8486,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "3u3t3troe",
@@ -7931,7 +8515,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "0yqonyqws",
@@ -7958,7 +8544,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "dqbmlzayn",
@@ -7985,7 +8573,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "y1vl9zplv",
@@ -8012,7 +8602,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "wc0jm4qyc",
@@ -8039,7 +8631,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 85
   },
   {
     "id": "9y611hj26",
@@ -8066,7 +8660,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "ihg7hyd1s",
@@ -8093,7 +8689,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "jb6emrigs",
@@ -8120,7 +8718,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "eyf5d49ty",
@@ -8147,7 +8747,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "qqwjyu1s1",
@@ -8174,7 +8776,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "nfbnz22v1",
@@ -8201,7 +8805,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "o1aacftnf",
@@ -8228,7 +8834,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "vadbcu97i",
@@ -8255,7 +8863,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "0tnc7e2lp",
@@ -8282,7 +8892,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "2a99ytzwf",
@@ -8309,7 +8921,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "jp22thzk9",
@@ -8336,7 +8950,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "huzzx18fp",
@@ -8363,7 +8979,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "5v78yocs0",
@@ -8390,7 +9008,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 14,
+    "sensitivity": 87
   },
   {
     "id": "u2l43xx8d",
@@ -8417,7 +9037,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "b1op1nkcc",
@@ -8444,7 +9066,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "0ezd3eoj2",
@@ -8471,7 +9095,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "gcud12jnu",
@@ -8498,7 +9124,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "kjzv3i6f8",
@@ -8525,7 +9153,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 85
   },
   {
     "id": "20aom85ol",
@@ -8552,7 +9182,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 102
   },
   {
     "id": "uagmh3hag",
@@ -8579,7 +9211,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "0saz520er",
@@ -8606,7 +9240,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "48971hvkg",
@@ -8633,7 +9269,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 108
   },
   {
     "id": "b9xufplrw",
@@ -8660,7 +9298,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "c976rbrbi",
@@ -8687,7 +9327,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "oskaku0ei",
@@ -8714,7 +9356,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "8vq228njs",
@@ -8741,7 +9385,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "sscr7zbvu",
@@ -8768,7 +9414,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "73qr0go3i",
@@ -8795,7 +9443,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 97
   },
   {
     "id": "lx4cou1zr",
@@ -8822,7 +9472,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "bh1ozeazo",
@@ -8849,7 +9501,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "j9bvhaw0z",
@@ -8876,7 +9530,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "248qjx6bk",
@@ -8903,7 +9559,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 85
   },
   {
     "id": "ktavolcuw",
@@ -8930,7 +9588,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "lcwsvhiva",
@@ -8957,7 +9617,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "2qq3d81p8",
@@ -8984,7 +9646,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "5ywjyf6mb",
@@ -9011,7 +9675,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "4rey2dlkr",
@@ -9038,7 +9704,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "t7hlarlnq",
@@ -9065,7 +9733,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "q5bdq2p99",
@@ -9092,7 +9762,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 91
   },
   {
     "id": "2qychasth",
@@ -9119,7 +9791,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "1kxbtxzru",
@@ -9146,7 +9820,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "2xlyy3iu6",
@@ -9173,7 +9849,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "4lzif131u",
@@ -9200,7 +9878,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "hmm158m3o",
@@ -9227,7 +9907,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "rcxyjc9t4",
@@ -9254,7 +9936,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "wcgofc4m2",
@@ -9281,7 +9965,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "marj41xe2",
@@ -9308,7 +9994,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 85
   },
   {
     "id": "5nd52stfb",
@@ -9335,7 +10023,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "8nyr3hlam",
@@ -9362,7 +10052,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "dopn8h9nt",
@@ -9389,7 +10081,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "jyn2ajhcr",
@@ -9416,7 +10110,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 103
   },
   {
     "id": "ozbejsl8t",
@@ -9443,7 +10139,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "7piijbh8i",
@@ -9470,7 +10168,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "bqeyohv2f",
@@ -9497,7 +10197,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "lk09gv957",
@@ -9524,7 +10226,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "sbxe2cvt3",
@@ -9551,7 +10255,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 107
   },
   {
     "id": "77em9m6vo",
@@ -9578,7 +10284,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "5m43skqy4",
@@ -9605,7 +10313,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "h6z6i5813",
@@ -9632,7 +10342,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "d3vj87uqi",
@@ -9659,7 +10371,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "ji8skgwt3",
@@ -9686,7 +10400,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "zf5q974pm",
@@ -9713,7 +10429,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "dc03o7fa8",
@@ -9740,7 +10458,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "h18awuac8",
@@ -9767,7 +10487,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "nesup5rnb",
@@ -9794,7 +10516,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "qk9h1l69f",
@@ -9821,7 +10545,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "fzj3w61cy",
@@ -9848,7 +10574,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "5w30kpyfh",
@@ -9875,7 +10603,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "53mp4345m",
@@ -9902,7 +10632,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "akf26bkbb",
@@ -9929,7 +10661,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "zn57ehlam",
@@ -9956,7 +10690,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "i7my31lev",
@@ -9983,7 +10719,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "crfamgtle",
@@ -10010,7 +10748,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "fxh7bc6b5",
@@ -10037,7 +10777,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "g372skp8e",
@@ -10064,7 +10806,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 88
   },
   {
     "id": "556gi7yhk",
@@ -10091,7 +10835,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "g7fels9cq",
@@ -10118,7 +10864,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "0r5l9nj0h",
@@ -10145,7 +10893,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "zd0ar4j83",
@@ -10172,7 +10922,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "h02r7dba7",
@@ -10199,7 +10951,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "rgtpr1r2t",
@@ -10226,7 +10980,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "mollhkgb8",
@@ -10253,7 +11009,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "a2f6hwrrw",
@@ -10280,7 +11038,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "7ujbbwvs3",
@@ -10307,7 +11067,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "72mbenqxs",
@@ -10334,7 +11096,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "zanq2kb1k",
@@ -10361,7 +11125,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "ryqwfpfj3",
@@ -10388,7 +11154,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "2eiz7pyke",
@@ -10415,7 +11183,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "mo4z0xmpt",
@@ -10442,7 +11212,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 85
   },
   {
     "id": "4amwutj41",
@@ -10469,7 +11241,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 104
   },
   {
     "id": "fm4v3poun",
@@ -10496,7 +11270,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "517j7j5la",
@@ -10523,7 +11299,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "p89wcnora",
@@ -10550,7 +11328,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "1kpd0kzzh",
@@ -10577,7 +11357,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "jo0di5ezj",
@@ -10604,7 +11386,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "z0nt8g2m8",
@@ -10631,7 +11415,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "s77ot1cjj",
@@ -10658,7 +11444,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "u79tae1eg",
@@ -10685,7 +11473,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "gcicj2hnm",
@@ -10712,7 +11502,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 90
   },
   {
     "id": "04e9hw9qc",
@@ -10739,7 +11531,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "8xlqdhfy7",
@@ -10766,7 +11560,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "3hf5ldp6z",
@@ -10793,7 +11589,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "i65536ux8",
@@ -10820,7 +11618,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 90
   },
   {
     "id": "7xexc23nq",
@@ -10847,7 +11647,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 92
   },
   {
     "id": "p7cs6arb2",
@@ -10874,7 +11676,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "jayue549j",
@@ -10901,7 +11705,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "52yfws2ea",
@@ -10928,7 +11734,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 11,
+    "sensitivity": 85
   },
   {
     "id": "x2dcl88bz",
@@ -10955,7 +11763,9 @@
     "cons": [],
     "subBass": 5,
     "bass": 7,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "fdna3ceyc",
@@ -10982,7 +11792,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "cs5ctxqjt",
@@ -11009,7 +11821,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "fmn1fhgbm",
@@ -11036,7 +11850,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "t1c0p3q2e",
@@ -11063,7 +11879,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 92
   },
   {
     "id": "ll1d5xh3l",
@@ -11090,7 +11908,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "j77eh2acr",
@@ -11117,7 +11937,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "kavoibdzu",
@@ -11144,7 +11966,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "buw7f9yly",
@@ -11171,7 +11995,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "qja1ucs7z",
@@ -11198,7 +12024,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "mh6km8i5o",
@@ -11225,7 +12053,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "pqn8bixu5",
@@ -11252,7 +12082,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "9j7d255k0",
@@ -11279,7 +12111,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "ili5o3bhv",
@@ -11306,7 +12140,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 104
   },
   {
     "id": "szohmkngc",
@@ -11333,7 +12169,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "o2rm7qnik",
@@ -11360,7 +12198,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 89
   },
   {
     "id": "vcb595xv8",
@@ -11387,7 +12227,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "o5ko0e7st",
@@ -11414,7 +12256,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "5l1upg4wh",
@@ -11441,7 +12285,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "qyojpfh9g",
@@ -11468,7 +12314,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "dsxag29st",
@@ -11495,7 +12343,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "fd5ioito3",
@@ -11522,7 +12372,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "i0wi08u9i",
@@ -11549,7 +12401,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "u2av6l8oj",
@@ -11576,7 +12430,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "g1vljqxvi",
@@ -11603,7 +12459,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 91
   },
   {
     "id": "ak3mdkiih",
@@ -11630,7 +12488,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "npu92g7f2",
@@ -11657,7 +12517,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "6r2bbe72v",
@@ -11684,7 +12546,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "lbx9cr9g9",
@@ -11711,7 +12575,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "fmh5y7d0u",
@@ -11738,7 +12604,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "l273kmxeg",
@@ -11765,7 +12633,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "x40v0ozc9",
@@ -11792,7 +12662,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "87eag06yo",
@@ -11819,7 +12691,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "koymubei7",
@@ -11846,7 +12720,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "u4u3pyfbo",
@@ -11873,7 +12749,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "5zn3g6tdx",
@@ -11900,7 +12778,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "wgsnpm4ef",
@@ -11927,7 +12807,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "en26gj2w1",
@@ -11954,7 +12836,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "s7j5xnw6v",
@@ -11981,7 +12865,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "vynl6p38n",
@@ -12008,7 +12894,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "jf9dzjcrg",
@@ -12035,7 +12923,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "j7shqx7f8",
@@ -12062,7 +12952,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "7uyvk7wip",
@@ -12089,7 +12981,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "kjm16lc33",
@@ -12116,7 +13010,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "if1d46x0a",
@@ -12143,7 +13039,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "hk1mm9umj",
@@ -12170,7 +13068,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "kwetokcw2",
@@ -12197,7 +13097,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "kc5ik6188",
@@ -12224,7 +13126,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 97
   },
   {
     "id": "gowduz3g6",
@@ -12251,7 +13155,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "ko5t93g0u",
@@ -12278,7 +13184,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "3a2ahn0q0",
@@ -12305,7 +13213,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "rd3jjbhex",
@@ -12332,7 +13242,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "yy0qtxt2i",
@@ -12359,7 +13271,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "gbtnx4r5b",
@@ -12386,7 +13300,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "7m88i3i9k",
@@ -12413,7 +13329,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "rmquyjqj5",
@@ -12440,7 +13358,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "awnsguzgq",
@@ -12467,7 +13387,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "n9mypp3ul",
@@ -12494,7 +13416,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 103
   },
   {
     "id": "3t9e01jkf",
@@ -12521,7 +13445,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "mrcrg2dqr",
@@ -12548,7 +13474,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "6e6q9dyym",
@@ -12575,7 +13503,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "bn9tvuawj",
@@ -12602,7 +13532,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "7m18w6ay3",
@@ -12629,7 +13561,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "r35g1zzwt",
@@ -12656,7 +13590,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "jzluds2vz",
@@ -12683,7 +13619,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "16t3nq0ea",
@@ -12710,7 +13648,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "i95m6kq1l",
@@ -12737,7 +13677,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "w30urfr3u",
@@ -12764,7 +13706,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "5kpr521mp",
@@ -12791,7 +13735,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "ughij2rc7",
@@ -12818,7 +13764,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "9xvzf1nfb",
@@ -12845,7 +13793,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "8nldieig8",
@@ -12872,7 +13822,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "1zj3yxf9y",
@@ -12899,7 +13851,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "d6fdugfi8",
@@ -12926,7 +13880,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "ux6pdn0wq",
@@ -12953,7 +13909,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "ywedxb4sw",
@@ -12980,7 +13938,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 8,
+    "sensitivity": 99
   },
   {
     "id": "4j6tgmvav",
@@ -13007,7 +13967,9 @@
     "cons": [],
     "subBass": 5,
     "bass": 7,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "ldx154qkr",
@@ -13034,7 +13996,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "5wtl7g9l9",
@@ -13061,7 +14025,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "u6stlwc0o",
@@ -13088,7 +14054,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "srem0zibr",
@@ -13115,7 +14083,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "nolo8ctql",
@@ -13142,7 +14112,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 101
   },
   {
     "id": "yqwprjtc2",
@@ -13169,7 +14141,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "iq3wfw6wb",
@@ -13196,7 +14170,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "z4p1zy4pw",
@@ -13223,7 +14199,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "tbi6vc3mj",
@@ -13250,7 +14228,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "zjcidlt7e",
@@ -13277,7 +14257,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "6jdt5grsq",
@@ -13304,7 +14286,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "vu2augmk4",
@@ -13331,7 +14315,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "41p5ie4ym",
@@ -13358,7 +14344,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "00qjog530",
@@ -13385,7 +14373,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "qzhlvf7cf",
@@ -13412,7 +14402,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "4nelcnd58",
@@ -13439,7 +14431,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "zcpnvc2ac",
@@ -13466,7 +14460,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "fuj6ak2v7",
@@ -13493,7 +14489,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "1iq79nceg",
@@ -13520,7 +14518,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 87
   },
   {
     "id": "14otuym6p",
@@ -13547,7 +14547,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "vs0v1klmk",
@@ -13574,7 +14576,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "8sw1kf6o8",
@@ -13601,7 +14605,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 11,
+    "sensitivity": 96
   },
   {
     "id": "02ispbrdv",
@@ -13628,7 +14634,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "htxx5w62p",
@@ -13655,7 +14663,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "xzyumak8z",
@@ -13682,7 +14692,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 89
   },
   {
     "id": "rpzubycnz",
@@ -13709,7 +14721,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "h21azhtv6",
@@ -13736,7 +14750,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "f1pqd0kt5",
@@ -13763,7 +14779,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "kfktxzgs4",
@@ -13790,7 +14808,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "xrl4ni87y",
@@ -13817,7 +14837,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "klaamhh2q",
@@ -13844,7 +14866,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "9kkupctsm",
@@ -13871,7 +14895,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "0cu1y591d",
@@ -13898,7 +14924,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "ntnbekqz0",
@@ -13925,7 +14953,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 101
   },
   {
     "id": "8qpoe7zxg",
@@ -13952,7 +14982,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "wa3lnkrna",
@@ -13979,7 +15011,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "yov7j7d64",
@@ -14006,7 +15040,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "v9a3wjxy6",
@@ -14033,7 +15069,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "qn8fydhp2",
@@ -14060,7 +15098,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "0r6xik653",
@@ -14087,7 +15127,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "9osctvppi",
@@ -14114,7 +15156,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "9tzuvru2q",
@@ -14141,7 +15185,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "ulb0haqbl",
@@ -14168,7 +15214,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "scizrckji",
@@ -14195,7 +15243,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "f071uvhjy",
@@ -14222,7 +15272,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "o7bj17t0s",
@@ -14249,7 +15301,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 97
   },
   {
     "id": "b15zhazsg",
@@ -14276,7 +15330,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "j5ssrjppz",
@@ -14303,7 +15359,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "0u8bl1f6i",
@@ -14330,7 +15388,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "co8vvn5ag",
@@ -14357,7 +15417,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "ae6yfhbbv",
@@ -14384,7 +15446,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 107
   },
   {
     "id": "g5zzhlsvy",
@@ -14411,7 +15475,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "cv67sn77a",
@@ -14438,7 +15504,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 102
   },
   {
     "id": "0qkea5su4",
@@ -14465,7 +15533,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "0zyj4s6hq",
@@ -14492,7 +15562,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "1vo2menvg",
@@ -14519,7 +15591,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "2q80h77ww",
@@ -14546,7 +15620,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "ttqn13luu",
@@ -14573,7 +15649,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "7en98i04p",
@@ -14600,7 +15678,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "eybv6crhz",
@@ -14627,7 +15707,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "6taygma7t",
@@ -14654,7 +15736,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "yfjj4dtql",
@@ -14681,7 +15765,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "ij63tl6fb",
@@ -14708,7 +15794,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "lpi7wptcu",
@@ -14735,7 +15823,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "ip69zs6q4",
@@ -14762,7 +15852,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "kkqampj9e",
@@ -14789,7 +15881,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "05xzvszhp",
@@ -14816,7 +15910,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "574yue2fv",
@@ -14843,7 +15939,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "6gnyt4cvq",
@@ -14870,7 +15968,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "xcg56xvcz",
@@ -14897,7 +15997,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "vb37mqp8j",
@@ -14924,7 +16026,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "yzy9qmig5",
@@ -14951,7 +16055,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "fp7mkvdt6",
@@ -14978,7 +16084,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "9gay5wx4l",
@@ -15005,7 +16113,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "kf0duju9r",
@@ -15032,7 +16142,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "j8r8s5ozi",
@@ -15059,7 +16171,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "wqo94x286",
@@ -15086,7 +16200,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "yx52hvvcc",
@@ -15113,7 +16229,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 102
   },
   {
     "id": "v34loz113",
@@ -15140,7 +16258,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "eq12s3cjn",
@@ -15167,7 +16287,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 97
   },
   {
     "id": "mfv2whygq",
@@ -15194,7 +16316,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 85
   },
   {
     "id": "hzijfnorr",
@@ -15221,7 +16345,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "tge811jrt",
@@ -15248,7 +16374,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 110
   },
   {
     "id": "tlabqxttk",
@@ -15275,7 +16403,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 85
   },
   {
     "id": "zs7lxeua3",
@@ -15302,7 +16432,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "2d2c6u0eu",
@@ -15329,7 +16461,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 89
   },
   {
     "id": "1u6aorn2v",
@@ -15356,7 +16490,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "n7h4dyull",
@@ -15383,7 +16519,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "9xi8l9gtx",
@@ -15410,7 +16548,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "2kfxjyp25",
@@ -15437,7 +16577,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 98
   },
   {
     "id": "mgkmhnbdk",
@@ -15464,7 +16606,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "mz1fb4m2a",
@@ -15491,7 +16635,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "z3vks2u8f",
@@ -15518,7 +16664,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "nrygha4ex",
@@ -15545,7 +16693,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "kfnxsz8cs",
@@ -15572,7 +16722,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "r0iqw17xk",
@@ -15599,7 +16751,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "2704z8thm",
@@ -15626,7 +16780,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "ol9i8t0q3",
@@ -15653,7 +16809,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "txdepithx",
@@ -15680,7 +16838,9 @@
     "cons": [],
     "subBass": 5,
     "bass": 7,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "27ath92u0",
@@ -15707,7 +16867,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 100
   },
   {
     "id": "5777o34lm",
@@ -15734,7 +16896,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "jf1sgq6za",
@@ -15761,7 +16925,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "o6kmb6iyh",
@@ -15788,7 +16954,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "hwfntfdt4",
@@ -15815,7 +16983,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "kxq1yhcr0",
@@ -15842,7 +17012,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "ogeohc6cv",
@@ -15869,7 +17041,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "cuop9glnj",
@@ -15896,7 +17070,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "xtrfxqo84",
@@ -15923,7 +17099,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "cyh0xa2sx",
@@ -15950,7 +17128,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "clm5bv6l5",
@@ -15977,7 +17157,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "sec1hs5yb",
@@ -16004,7 +17186,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "nfnh7iwkr",
@@ -16031,7 +17215,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "yr3utcqfh",
@@ -16058,7 +17244,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "885v35dhu",
@@ -16085,7 +17273,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "q6wkw9q4c",
@@ -16112,7 +17302,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "dlbvuw6d8",
@@ -16139,7 +17331,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "iyr7wwh24",
@@ -16166,7 +17360,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 105
   },
   {
     "id": "p1sy11f5a",
@@ -16193,7 +17389,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "0pivmcxgx",
@@ -16220,7 +17418,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "tv1tvy88u",
@@ -16247,7 +17447,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "4e17ogo9v",
@@ -16274,7 +17476,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "b0i10gbj0",
@@ -16301,7 +17505,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "hzokmuoq8",
@@ -16328,7 +17534,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 86
   },
   {
     "id": "19qzsqhuj",
@@ -16355,7 +17563,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "wbf3qhsk4",
@@ -16382,7 +17592,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "2vk9wx79y",
@@ -16409,7 +17621,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 92
   },
   {
     "id": "1wsg83g93",
@@ -16436,7 +17650,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "pq9zxq91a",
@@ -16463,7 +17679,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 104
   },
   {
     "id": "i611jcw2v",
@@ -16490,7 +17708,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "pt3n79fr6",
@@ -16517,7 +17737,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "uav4l0gcw",
@@ -16544,7 +17766,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "0euqwjel2",
@@ -16571,7 +17795,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "wjxbrqf7t",
@@ -16598,7 +17824,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "0o3hjv6jp",
@@ -16625,7 +17853,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 90
   },
   {
     "id": "ipoh5iha1",
@@ -16652,7 +17882,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "o9x15i1ed",
@@ -16679,7 +17911,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "x8i1tjn4k",
@@ -16706,7 +17940,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "4tlglglu4",
@@ -16733,7 +17969,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "wb229zf0v",
@@ -16760,7 +17998,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "26apyzhca",
@@ -16787,7 +18027,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "xuzrh5cmi",
@@ -16814,7 +18056,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "xs5mh58l7",
@@ -16841,7 +18085,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 99
   },
   {
     "id": "axmkuymha",
@@ -16868,7 +18114,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "u4eb9rumo",
@@ -16895,7 +18143,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 100
   },
   {
     "id": "dvqst5wzn",
@@ -16922,7 +18172,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 104
   },
   {
     "id": "09rejoly4",
@@ -16949,7 +18201,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 7,
-    "upperBass": 5
+    "upperBass": 5,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "ddme7k7pn",
@@ -16976,7 +18230,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 92
   },
   {
     "id": "xhypztcrm",
@@ -17003,7 +18259,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "t7s5dzrll",
@@ -17030,7 +18288,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "zaz6dsoal",
@@ -17057,7 +18317,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 97
   },
   {
     "id": "r9ndcca7u",
@@ -17084,7 +18346,9 @@
     "cons": [],
     "subBass": 6,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "bgug6wd28",
@@ -17111,7 +18375,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "gfx89bwz2",
@@ -17138,7 +18404,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "iassckdqm",
@@ -17165,7 +18433,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 100
   },
   {
     "id": "oaeqa7kpb",
@@ -17192,7 +18462,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "93dzv1qig",
@@ -17219,7 +18491,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "n7vco672w",
@@ -17246,7 +18520,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "vmfnvaazy",
@@ -17273,7 +18549,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 94
   },
   {
     "id": "5r1htx2kw",
@@ -17300,7 +18578,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "q45zr1cvv",
@@ -17327,7 +18607,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "jci2u2644",
@@ -17354,7 +18636,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "0cx534bvl",
@@ -17381,7 +18665,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "e083dccz9",
@@ -17408,7 +18694,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "a1isgvkdz",
@@ -17435,7 +18723,9 @@
     "cons": [],
     "subBass": 5,
     "bass": 7,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 102
   },
   {
     "id": "b5gaj29ju",
@@ -17462,7 +18752,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "kaphbx06o",
@@ -17489,7 +18781,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "mrns0waf4",
@@ -17516,7 +18810,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "me2ewnlaw",
@@ -17543,7 +18839,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "hncc1l957",
@@ -17570,7 +18868,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "8tyh3lwvq",
@@ -17597,7 +18897,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "p4m8k1mdj",
@@ -17624,7 +18926,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "j1nr7y0i4",
@@ -17651,7 +18955,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "645bjo4yi",
@@ -17678,7 +18984,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "e5qoxdk1t",
@@ -17705,7 +19013,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "npw1ev4q1",
@@ -17732,7 +19042,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "v0wxo87h3",
@@ -17759,7 +19071,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "u3anc30kg",
@@ -17786,7 +19100,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 108
   },
   {
     "id": "yrmjle16u",
@@ -17813,7 +19129,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "uqh5p7sab",
@@ -17840,7 +19158,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "wf8pddiah",
@@ -17867,7 +19187,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "i1ic0wm0p",
@@ -17894,7 +19216,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "heb6tv92a",
@@ -17921,7 +19245,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "m43nw2wsh",
@@ -17948,7 +19274,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "ptp73wtop",
@@ -17975,7 +19303,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "ywhlzvn29",
@@ -18002,7 +19332,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 107
   },
   {
     "id": "pkrsib0k9",
@@ -18029,7 +19361,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "6jvrkfd8r",
@@ -18056,7 +19390,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "f2q95nrmb",
@@ -18083,7 +19419,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "2aif2qu10",
@@ -18110,7 +19448,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "ma3eu1rqs",
@@ -18137,7 +19477,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 93
   },
   {
     "id": "t5dbsjtow",
@@ -18164,7 +19506,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "gflnbka5w",
@@ -18191,7 +19535,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "7lq8uogu7",
@@ -18218,7 +19564,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 103
   },
   {
     "id": "0es4rpghp",
@@ -18245,7 +19593,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "sah2z06dh",
@@ -18272,7 +19622,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "lculub0ng",
@@ -18299,7 +19651,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "bqbe21un5",
@@ -18326,7 +19680,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "274lchc2o",
@@ -18353,7 +19709,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "z67012ufd",
@@ -18380,7 +19738,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 98
   },
   {
     "id": "m7mpfoczp",
@@ -18407,7 +19767,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "qxmhu3iaw",
@@ -18434,7 +19796,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "vqgw8vdp1",
@@ -18461,7 +19825,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "qc4y89jhc",
@@ -18488,7 +19854,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "p13mbnxxq",
@@ -18515,7 +19883,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "9hvrx4gbf",
@@ -18542,7 +19912,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 92
   },
   {
     "id": "g8h13q2k5",
@@ -18569,7 +19941,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "ln9i743t9",
@@ -18596,7 +19970,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "bp0xdkhm7",
@@ -18623,7 +19999,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "7w1lj5nat",
@@ -18650,7 +20028,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "izyifj77c",
@@ -18677,7 +20057,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "q365t8jmr",
@@ -18704,7 +20086,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 107
   },
   {
     "id": "75ptbvq6r",
@@ -18731,7 +20115,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "oz4yznqfc",
@@ -18758,7 +20144,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 90
   },
   {
     "id": "4lb928owd",
@@ -18785,7 +20173,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "pyoiaj5zd",
@@ -18812,7 +20202,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "bz410se0i",
@@ -18839,7 +20231,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 91
   },
   {
     "id": "f7uryo8wp",
@@ -18866,7 +20260,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "2tmvpwo0c",
@@ -18893,7 +20289,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "ec4ol9u31",
@@ -18920,7 +20318,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "f50wt8l2w",
@@ -18947,7 +20347,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 86
   },
   {
     "id": "lag4tnfqb",
@@ -18974,7 +20376,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "qektwabnu",
@@ -19001,7 +20405,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "91j8l0y8m",
@@ -19028,7 +20434,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "bdd2o6y9h",
@@ -19055,7 +20463,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 95
   },
   {
     "id": "w5055svji",
@@ -19082,7 +20492,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 90
   },
   {
     "id": "5i291xw62",
@@ -19109,7 +20521,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "hu8yzu2wt",
@@ -19136,7 +20550,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "wzbiwi2wj",
@@ -19163,7 +20579,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 96
   },
   {
     "id": "jxho13hx7",
@@ -19190,7 +20608,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "l6n48wkfe",
@@ -19217,7 +20637,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "talgol2ch",
@@ -19244,7 +20666,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "1gfp4g3p9",
@@ -19271,7 +20695,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "tqeb6tthm",
@@ -19298,7 +20724,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "9m70d68je",
@@ -19325,7 +20753,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "nqinw28g6",
@@ -19352,7 +20782,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "sotie5buf",
@@ -19379,7 +20811,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "nrq9u1wc3",
@@ -19406,7 +20840,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "6rtkk8ha2",
@@ -19433,7 +20869,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "r6o4lpm74",
@@ -19460,7 +20898,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 85
   },
   {
     "id": "8r7r6hgb0",
@@ -19487,7 +20927,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 90
   },
   {
     "id": "itilf9kon",
@@ -19514,7 +20956,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "pqv23k477",
@@ -19541,7 +20985,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "8phrb52vp",
@@ -19568,7 +21014,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 106
   },
   {
     "id": "baoounvh5",
@@ -19595,7 +21043,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "ib9n86kfc",
@@ -19622,7 +21072,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "b1ypkb2h6",
@@ -19649,7 +21101,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "6d80c0h7f",
@@ -19676,7 +21130,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "3gbg05rdb",
@@ -19703,7 +21159,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "yqs40t6qx",
@@ -19730,7 +21188,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 96
   },
   {
     "id": "xsc3imp04",
@@ -19757,7 +21217,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 96
   },
   {
     "id": "nicmy9mgs",
@@ -19784,7 +21246,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 87
   },
   {
     "id": "x1bzh457l",
@@ -19811,7 +21275,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "k61dsiquc",
@@ -19838,7 +21304,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "1ha5ul5bs",
@@ -19865,7 +21333,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "atgtxe4x9",
@@ -19892,7 +21362,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "0pswx1f28",
@@ -19919,7 +21391,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 107
   },
   {
     "id": "5x8md0e8n",
@@ -19946,7 +21420,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 88
   },
   {
     "id": "cigt78vmp",
@@ -19973,7 +21449,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "jjrt9t1a3",
@@ -20000,7 +21478,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   },
   {
     "id": "ooj5byv2t",
@@ -20027,7 +21507,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "lugny2mtf",
@@ -20054,7 +21536,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "hahsgug0x",
@@ -20081,7 +21565,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 92
   },
   {
     "id": "ab3s5jm4h",
@@ -20108,7 +21594,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "6xftfh64b",
@@ -20135,7 +21623,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 93
   },
   {
     "id": "eidd0fny1",
@@ -20162,7 +21652,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "2fo5vpm49",
@@ -20189,7 +21681,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "upri9rjgg",
@@ -20216,7 +21710,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 94
   },
   {
     "id": "6eeozidul",
@@ -20243,7 +21739,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "dasvuqnaw",
@@ -20270,7 +21768,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "7gczmhiri",
@@ -20297,7 +21797,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "9lpnjf8rw",
@@ -20324,7 +21826,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 10,
+    "sensitivity": 108
   },
   {
     "id": "f88szwq1f",
@@ -20351,7 +21855,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 40,
+    "sensitivity": 109
   },
   {
     "id": "6i8xds6m7",
@@ -20378,7 +21884,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "fjt0pkdq1",
@@ -20405,7 +21913,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "waa8r4y1y",
@@ -20432,7 +21942,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "patv8stg7",
@@ -20459,7 +21971,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 99
   },
   {
     "id": "kbmpdjlsm",
@@ -20486,7 +22000,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 90
   },
   {
     "id": "4fsd5rlwg",
@@ -20513,7 +22029,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "8bn8tck92",
@@ -20540,7 +22058,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 103
   },
   {
     "id": "cxbloahbh",
@@ -20567,7 +22087,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "zopuvqkx3",
@@ -20594,7 +22116,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 103
   },
   {
     "id": "21gthy09q",
@@ -20621,7 +22145,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 109
   },
   {
     "id": "7hjk9r43m",
@@ -20648,7 +22174,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "f5xfl90j5",
@@ -20675,7 +22203,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 100
   },
   {
     "id": "03tefptrk",
@@ -20702,7 +22232,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "myj1xouuc",
@@ -20729,7 +22261,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 106
   },
   {
     "id": "rzcavf7tf",
@@ -20756,7 +22290,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 106
   },
   {
     "id": "fcib3aw02",
@@ -20783,7 +22319,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 106
   },
   {
     "id": "zqriliilb",
@@ -20810,7 +22348,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "h3z5gtuam",
@@ -20837,7 +22377,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "sih90lv7x",
@@ -20864,7 +22406,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 103
   },
   {
     "id": "ivzgzenph",
@@ -20891,7 +22435,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "nxx48cqec",
@@ -20918,7 +22464,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 90
   },
   {
     "id": "lswamaxfq",
@@ -20945,7 +22493,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 105
   },
   {
     "id": "coxgsoghm",
@@ -20972,7 +22522,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "u1sun9xp5",
@@ -20999,7 +22551,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 101
   },
   {
     "id": "dvtyujn2s",
@@ -21026,7 +22580,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 103
   },
   {
     "id": "mllm5mh4r",
@@ -21053,7 +22609,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 101
   },
   {
     "id": "g7bwx9wyr",
@@ -21080,7 +22638,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 85
   },
   {
     "id": "bret7td14",
@@ -21107,7 +22667,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "vzehg77ft",
@@ -21134,7 +22696,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "2p285fcz2",
@@ -21161,7 +22725,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 94
   },
   {
     "id": "wesn9592s",
@@ -21188,7 +22754,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 110
   },
   {
     "id": "fxvoz8uoa",
@@ -21215,7 +22783,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "ln33nzggm",
@@ -21242,7 +22812,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "0k9pfhk86",
@@ -21269,7 +22841,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 91
   },
   {
     "id": "dvd08ajts",
@@ -21296,7 +22870,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "rdsvegyag",
@@ -21323,7 +22899,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "66xnbrrlc",
@@ -21350,7 +22928,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "y84aj9tfn",
@@ -21377,7 +22957,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "0seq1d4xc",
@@ -21404,7 +22986,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 85
   },
   {
     "id": "g4xl8dtm4",
@@ -21431,7 +23015,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 92
   },
   {
     "id": "f9hsx0ydr",
@@ -21458,7 +23044,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 10,
+    "sensitivity": 108
   },
   {
     "id": "wpuxkqhbp",
@@ -21485,7 +23073,9 @@
     "cons": [],
     "subBass": 5,
     "bass": 7,
-    "upperBass": 7
+    "upperBass": 7,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "5zhk8h9a8",
@@ -21512,7 +23102,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 102
   },
   {
     "id": "0gummgfse",
@@ -21539,7 +23131,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 90
   },
   {
     "id": "kqfisbyj3",
@@ -21566,7 +23160,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 86
   },
   {
     "id": "csf502pko",
@@ -21593,7 +23189,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 97
   },
   {
     "id": "6lm9fkxql",
@@ -21620,7 +23218,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 86
   },
   {
     "id": "i79357d09",
@@ -21647,7 +23247,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 96
   },
   {
     "id": "63nxo1uox",
@@ -21674,7 +23276,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 102
   },
   {
     "id": "99a3ejapx",
@@ -21701,7 +23305,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 87
   },
   {
     "id": "06yqgrklg",
@@ -21728,7 +23334,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 98
   },
   {
     "id": "ful8x2vkk",
@@ -21755,7 +23363,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 101
   },
   {
     "id": "zjmvtbuw2",
@@ -21782,7 +23392,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 88
   },
   {
     "id": "tpffjcgq3",
@@ -21809,7 +23421,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 107
   },
   {
     "id": "6v2g1i5oa",
@@ -21836,7 +23450,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 95
   },
   {
     "id": "9802e8ogl",
@@ -21863,7 +23479,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "rlliqbh2p",
@@ -21890,7 +23508,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 95
   },
   {
     "id": "1keiahauq",
@@ -21917,7 +23537,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "eqcb5z3e2",
@@ -21944,7 +23566,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 101
   },
   {
     "id": "zs31ac5up",
@@ -21971,7 +23595,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 108
   },
   {
     "id": "fe1cq1bao",
@@ -21998,7 +23624,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 102
   },
   {
     "id": "sdzm7m17g",
@@ -22025,7 +23653,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "dchlqnnx8",
@@ -22052,7 +23682,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 107
   },
   {
     "id": "27o0mojxa",
@@ -22079,7 +23711,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 91
   },
   {
     "id": "isi7yv3vi",
@@ -22106,7 +23740,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "l7hqcurak",
@@ -22133,7 +23769,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 107
   },
   {
     "id": "c90s9htbc",
@@ -22160,7 +23798,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "8bwxk85t4",
@@ -22187,7 +23827,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 87
   },
   {
     "id": "juc3urc1k",
@@ -22214,7 +23856,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 95
   },
   {
     "id": "5f1dpq7yz",
@@ -22241,7 +23885,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 108
   },
   {
     "id": "dwb0ujejw",
@@ -22268,7 +23914,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 109
   },
   {
     "id": "7sssgb0vm",
@@ -22295,7 +23943,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 89
   },
   {
     "id": "ds60r61dx",
@@ -22322,7 +23972,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 105
   },
   {
     "id": "5rcx6z1d3",
@@ -22349,7 +24001,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 109
   },
   {
     "id": "j436ls024",
@@ -22376,7 +24030,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 110
   },
   {
     "id": "30kcpugsk",
@@ -22403,7 +24059,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 87
   },
   {
     "id": "ky3xew79c",
@@ -22430,7 +24088,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 104
   },
   {
     "id": "q6crz5yk0",
@@ -22457,7 +24117,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 101
   },
   {
     "id": "mhsxok2ji",
@@ -22484,7 +24146,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 92
   },
   {
     "id": "7b4u4f6rf",
@@ -22511,7 +24175,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 105
   },
   {
     "id": "1j5943u60",
@@ -22538,7 +24204,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 99
   },
   {
     "id": "6p8awqles",
@@ -22565,7 +24233,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 89
   },
   {
     "id": "uyacnuctq",
@@ -22592,7 +24262,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 93
   },
   {
     "id": "z69wd87u1",
@@ -22619,7 +24291,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 110
   },
   {
     "id": "mzej9xld8",
@@ -22646,7 +24320,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 99
   },
   {
     "id": "1or5l7j6n",
@@ -22673,7 +24349,9 @@
     "cons": [],
     "subBass": 10,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 103
   },
   {
     "id": "cwx6xaepx",
@@ -22700,7 +24378,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "g6has78d7",
@@ -22727,7 +24407,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 10,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 93
   },
   {
     "id": "6rfla8hy8",
@@ -22754,7 +24436,9 @@
     "cons": [],
     "subBass": 8,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 88
   },
   {
     "id": "bauy94b0k",
@@ -22781,7 +24465,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 50,
+    "sensitivity": 89
   },
   {
     "id": "idi4gmaik",
@@ -22808,7 +24494,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 85
   },
   {
     "id": "2xodwb2xg",
@@ -22835,7 +24523,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 94
   },
   {
     "id": "c7diab92w",
@@ -22862,7 +24552,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 92
   },
   {
     "id": "su4udy10e",
@@ -22889,7 +24581,9 @@
     "cons": [],
     "subBass": 7,
     "bass": 8,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 45,
+    "sensitivity": 104
   },
   {
     "id": "1qghmlknk",
@@ -22916,7 +24610,9 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 30,
+    "sensitivity": 102
   },
   {
     "id": "hnwix98ro",
@@ -22943,6 +24639,8 @@
     "cons": [],
     "subBass": 9,
     "bass": 9,
-    "upperBass": 6
+    "upperBass": 6,
+    "driverSize": 40,
+    "sensitivity": 98
   }
 ]
