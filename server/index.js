@@ -1,10 +1,10 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import OpenAI from "openai";
+import { GoogleGenerativeAI, SchemaType } from "@google/generative-ai";
 
 dotenv.config();
-const openai = process.env.OPENAI_API_KEY ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY }) : null;
+const genAI = process.env.GEMINI_API_KEY ? new GoogleGenerativeAI(process.env.GEMINI_API_KEY) : null;
 
 const app = express();
 const PORT = 5000;
@@ -96,6 +96,8 @@ app.post("/ai-price", async (req, res) => {
       return res.status(400).json({ error: "Missing productData or competitorPrice" });
     }
 
+    console.log(`[AI API Hit] Received request for: ${productData.name}...`);
+
     // Basic Caching based on product name and competitor price
     const cacheKey = `${productData.name}_${competitorPrice}`;
     if (aiPriceCache.has(cacheKey)) {
@@ -107,9 +109,7 @@ app.post("/ai-price", async (req, res) => {
     const mockReasons = [
       "Analyzed regional marketplace trends. Adjusted to remain highly competitive against the current benchmark.",
       "Calculated based on average 30-day competitor discounting and technical specifications.",
-      "Algorithm recommends a strategic markdown to undercut primary competitor while maintaining premium positioning.",
-      "Pricing optimized for maximum conversion rate against similar models with active noise cancellation features.",
-      "Machine learning model strongly predicts high volume sales at exactly 5% below competitor baseline."
+      "Algorithm recommends a strategic markdown to undercut primary competitor while maintaining premium positioning."
     ];
 
     // Helper for structured mock fallback response
@@ -126,9 +126,9 @@ app.post("/ai-price", async (req, res) => {
       return resp;
     };
 
-    // Fallback if no OpenAI key is set
-    if (!openai) {
-      console.warn("Using simulated AI price because OPENAI_API_KEY is not set.");
+    // Fallback if no Gemini key is set
+    if (!genAI) {
+      console.warn("Using simulated AI price because GEMINI_API_KEY is not set.");
       return res.json(getFallbackResponse());
     }
 
@@ -146,26 +146,23 @@ Rules:
 * Maintain realistic market pricing
 * Premium brands should not be priced too low
 
-Return ONLY valid JSON:
+Return ONLY valid JSON matching this schema exactly:
 {
-"price": number,
-"reason": string
+  "price": number,
+  "reason": "string explaining reasoning"
 }`;
 
-    const response = await openai.chat.completions.create({
-      model: "gpt-4.1-mini",
-      messages: [{ role: "user", content: prompt }],
-      temperature: 0.7
-    });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash", generationConfig: { temperature: 0.7 } });
+    const result = await model.generateContent(prompt);
 
     let aiResult;
     try {
-      let content = response.choices[0].message.content.trim();
+      let content = result.response.text().trim();
       // Remove possible markdown syntax
-      if (content.startsWith("\`\`\`json")) {
-        content = content.replace(/^\`\`\`json/, "").replace(/\`\`\`$/, "").trim();
-      } else if (content.startsWith("\`\`\`")) {
-        content = content.replace(/^\`\`\`/, "").replace(/\`\`\`$/, "").trim();
+      if (content.startsWith("```json")) {
+        content = content.replace(/^```json/, "").replace(/```$/, "").trim();
+      } else if (content.startsWith("```")) {
+        content = content.replace(/^```/, "").replace(/```$/, "").trim();
       }
       aiResult = JSON.parse(content);
     } catch (parseError) {

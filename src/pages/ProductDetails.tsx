@@ -103,7 +103,7 @@ const ProductDetails: React.FC = () => {
                             <strong style={{ color: 'var(--accent)', fontSize: '1.1em' }}>
                                 AI Suggested Price: ₹{aiPriceHint.price}
                             </strong>
-                            <p style={{ margin: '4px 0 0 0', fontSize: '0.85em', opacity: 0.8, lineHeight: '1.4' }}>
+                            <p style={{ margin: '8px 0 0 0', fontSize: '0.85em', opacity: 0.8, lineHeight: '1.4' }}>
                                 {aiPriceHint.reason}
                             </p>
                         </div>
