@@ -1,3 +1,4 @@
+// @ts-nocheck
 export interface Headphone {
   id: string;
   name: string;

@@ -1,0 +1,414 @@
+/* === ADMIN DASHBOARD — exact admin.html design === */
+.adm-root {
+  min-height: 100vh;
+  background: #050505;
+  color: rgba(255,255,255,0.92);
+  font-family: 'Inter', -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* TOP BAR */
+.adm-topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: 56px;
+  background: rgba(5,5,5,0.88);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  display: flex;
+  align-items: center;
+  padding: 0 28px;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.adm-topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.adm-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: linear-gradient(135deg,#9900FF,#cc00ff);
+  box-shadow: 0 0 8px rgba(204,0,255,0.6);
+}
+
+.adm-topbar-logo {
+  font-size: 15px;
+  font-weight: 700;
+  background: linear-gradient(135deg,#fff,#d0a8ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.adm-topbar-badge {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #cc00ff;
+  background: rgba(153,0,255,0.12);
+  border: 1px solid rgba(153,0,255,0.25);
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+
+.adm-topbar-nav {
+  display: flex;
+  gap: 4px;
+}
+
+.adm-nav-btn {
+  padding: 6px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: rgba(255,255,255,0.4);
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.adm-nav-btn:hover { color: rgba(255,255,255,0.85); background: rgba(255,255,255,0.05); }
+.adm-nav-btn.active { color: #cc00ff; background: rgba(153,0,255,0.1); border: 1px solid rgba(153,0,255,0.25); }
+
+.adm-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.adm-topbar-user { font-size: 13px; color: rgba(255,255,255,0.45); }
+.adm-topbar-user strong { color: rgba(255,255,255,0.75); }
+
+.adm-btn-logout {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 7px 16px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.adm-btn-logout:hover { color: rgba(255,255,255,0.8); border-color: rgba(255,255,255,0.2); }
+
+/* LAYOUT */
+.adm-layout {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 36px 24px 60px;
+}
+
+/* PAGE HEADER */
+.adm-page-header { margin-bottom: 36px; }
+
+.adm-header-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.adm-tag-line { width: 20px; height: 1px; background: linear-gradient(90deg,#9900FF,#cc00ff); }
+
+.adm-tag-txt {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #cc00ff;
+}
+
+.adm-page-title {
+  font-size: clamp(28px,4vw,44px);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  background: linear-gradient(135deg,#fff 0%,#d0b8ff 70%,#cc00ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 8px;
+}
+
+.adm-page-sub { font-size: 15px; color: rgba(255,255,255,0.38); line-height: 1.6; }
+
+/* STATS */
+.adm-stats-row {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 16px;
+  margin-bottom: 36px;
+}
+
+@media (max-width:800px) { .adm-stats-row { grid-template-columns: repeat(2,1fr); } }
+@media (max-width:500px) { .adm-stats-row { grid-template-columns: 1fr; } }
+
+.adm-stat-card {
+  background: rgba(255,255,255,0.025);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 16px;
+  padding: 22px 24px;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s;
+}
+
+.adm-stat-card:hover { border-color: rgba(153,0,255,0.3); }
+
+.adm-stat-top {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg,transparent,rgba(153,0,255,0.5),rgba(204,0,255,0.5),transparent);
+}
+
+.adm-stat-label { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.35); margin-bottom: 10px; }
+.adm-stat-val { font-size: 32px; font-weight: 800; letter-spacing: -0.04em; background: linear-gradient(135deg,#fff,#cc00ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.adm-stat-change { font-size: 12px; color: rgba(100,255,160,0.8); margin-top: 4px; }
+.adm-stat-change.neg { color: rgba(255,100,100,0.8); }
+
+/* SECTION */
+.adm-section { margin-bottom: 40px; }
+
+.adm-section-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.adm-section-title { font-size: 18px; font-weight: 700; letter-spacing: -0.02em; color: rgba(255,255,255,0.88); }
+.adm-section-sub { font-size: 13px; color: rgba(255,255,255,0.35); margin-top: 2px; }
+
+/* FILTER TABS */
+.adm-filter-tabs { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.adm-filter-tab {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 6px 16px;
+  border-radius: 100px;
+  border: 1px solid rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.4);
+  cursor: pointer;
+  transition: all 0.2s;
+  background: none;
+  font-family: inherit;
+}
+
+.adm-filter-tab:hover,
+.adm-filter-tab.active { border-color: rgba(153,0,255,0.45); color: #cc00ff; background: rgba(153,0,255,0.1); }
+
+/* REVIEWS */
+.adm-reviews-list { display: flex; flex-direction: column; gap: 14px; }
+
+.adm-review-card {
+  background: rgba(255,255,255,0.025);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 14px;
+  padding: 22px 24px;
+  transition: border-color 0.3s, background 0.3s;
+}
+
+.adm-review-card:hover { border-color: rgba(153,0,255,0.2); background: rgba(153,0,255,0.03); }
+
+.adm-review-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.adm-avatar {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; font-weight: 700;
+  color: rgba(255,255,255,0.9);
+  flex-shrink: 0;
+}
+
+.adm-review-info { flex: 1; }
+
+.adm-review-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.85);
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+}
+
+.adm-review-product { font-size: 12px; color: rgba(255,255,255,0.35); margin-top: 1px; }
+
+.adm-review-right { margin-left: auto; text-align: right; }
+
+.adm-review-stars { display: flex; align-items: center; gap: 2px; justify-content: flex-end; }
+.adm-star { font-size: 13px; }
+.adm-star.on  { color: #FFB800; }
+.adm-star.off { color: rgba(255,255,255,0.15); }
+.adm-review-date { font-size: 11px; color: rgba(255,255,255,0.25); letter-spacing: 0.04em; }
+
+.adm-review-body { font-size: 14px; color: rgba(255,255,255,0.5); line-height: 1.65; }
+
+.adm-review-badge {
+  display: inline-block;
+  padding: 2px 9px;
+  border-radius: 100px;
+  font-size: 10px; font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.badge-positive { background: rgba(0,200,100,0.12); border: 1px solid rgba(0,200,100,0.25); color: rgba(100,255,160,0.9); }
+.badge-neutral  { background: rgba(255,184,0,0.10); border: 1px solid rgba(255,184,0,0.25); color: rgba(255,200,60,0.9); }
+.badge-negative { background: rgba(255,80,80,0.10); border: 1px solid rgba(255,80,80,0.25); color: rgba(255,120,120,0.9); }
+
+.adm-cust-badge {
+  font-size: 9px; font-weight: 700; letter-spacing: 0.08em;
+  padding: 2px 7px;
+  background: rgba(153,0,255,0.12); border: 1px solid rgba(153,0,255,0.25);
+  border-radius: 100px; color: #cc00ff;
+}
+
+/* COMPLAINTS */
+.adm-complaint-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 14px;
+  padding: 22px 24px;
+  margin-bottom: 14px;
+  transition: border-color 0.3s;
+}
+
+.adm-complaint-card:hover { border-color: rgba(255,80,80,0.2); }
+
+.adm-complaint-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.adm-cmp-id { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; color: rgba(255,255,255,0.3); }
+.adm-cmp-title { font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.85); flex: 1; }
+
+.adm-status-pill {
+  padding: 3px 12px; border-radius: 100px;
+  font-size: 10px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  flex-shrink: 0;
+}
+
+.status-open     { background: rgba(255,80,80,.12);  border: 1px solid rgba(255,80,80,.3);  color: rgba(255,120,120,.9); }
+.status-review   { background: rgba(255,184,0,.12);  border: 1px solid rgba(255,184,0,.3);  color: rgba(255,210,60,.9); }
+.status-resolved { background: rgba(0,200,100,.12);  border: 1px solid rgba(0,200,100,.3);  color: rgba(100,255,160,.9); }
+
+.adm-complaint-body { font-size: 14px; color: rgba(255,255,255,0.45); line-height: 1.65; margin-bottom: 14px; }
+
+.adm-complaint-meta { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.adm-meta-group { display: flex; gap: 20px; flex: 1; flex-wrap: wrap; }
+.adm-meta-item { font-size: 12px; color: rgba(255,255,255,0.28); }
+.adm-meta-item span { color: rgba(255,255,255,0.55); font-weight: 500; }
+
+.adm-btn-resolve {
+  font-size: 12px; font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 100px;
+  border: 1px solid rgba(0,200,100,0.3);
+  color: rgba(100,255,160,0.8);
+  background: rgba(0,200,100,0.08);
+  cursor: pointer; font-family: inherit;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.adm-btn-resolve:hover { background: rgba(0,200,100,0.15); border-color: rgba(0,200,100,0.5); }
+
+/* SUBMIT FORM */
+.adm-submit-card {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 18px;
+  padding: 32px;
+  max-width: 800px;
+}
+
+.adm-sc-title { font-size: 16px; font-weight: 700; margin-bottom: 6px; color: rgba(255,255,255,0.85); }
+.adm-sc-sub   { font-size: 13px; color: rgba(255,255,255,0.35); margin-bottom: 24px; line-height: 1.5; }
+
+.adm-sc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+
+@media (max-width:600px) { .adm-sc-grid { grid-template-columns: 1fr; } }
+
+.adm-form-group { margin-bottom: 16px; }
+
+.adm-form-label {
+  font-size: 11px; font-weight: 600; letter-spacing: 0.08em;
+  text-transform: uppercase; color: rgba(255,255,255,0.35);
+  margin-bottom: 8px; display: block;
+}
+
+.adm-form-input,
+.adm-form-select,
+.adm-form-textarea {
+  width: 100%;
+  padding: 11px 14px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.09);
+  border-radius: 10px;
+  color: rgba(255,255,255,0.85);
+  font-size: 14px; font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.adm-form-input:focus,
+.adm-form-select:focus,
+.adm-form-textarea:focus { border-color: rgba(153,0,255,0.45); background: rgba(153,0,255,0.04); }
+
+.adm-form-input::placeholder,
+.adm-form-textarea::placeholder { color: rgba(255,255,255,0.18); }
+
+.adm-form-select { background-color: rgba(10,10,12,0.95); cursor: pointer; }
+.adm-form-select option { background: #111116; }
+.adm-form-textarea { resize: vertical; min-height: 100px; line-height: 1.6; }
+
+.adm-btn-submit {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: linear-gradient(135deg,#9900FF,#cc00ff);
+  color: #fff; font-weight: 600; font-size: 14px;
+  padding: 13px 28px; border-radius: 100px;
+  border: none; cursor: pointer; font-family: inherit;
+  box-shadow: 0 4px 24px rgba(153,0,255,0.35);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.adm-btn-submit:hover { transform: translateY(-2px); box-shadow: 0 8px 36px rgba(153,0,255,0.55); }
+.adm-btn-submit:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+
+.adm-success-msg {
+  padding: 14px 20px; background: rgba(0,200,100,0.1);
+  border: 1px solid rgba(0,200,100,0.25); border-radius: 10px;
+  font-size: 14px; color: rgba(100,255,160,0.9); margin-bottom: 20px;
+}
+
+.adm-error-msg {
+  padding: 14px 20px; background: rgba(255,80,80,0.1);
+  border: 1px solid rgba(255,80,80,0.25); border-radius: 10px;
+  font-size: 14px; color: rgba(255,120,120,0.9); margin-bottom: 20px;
+}

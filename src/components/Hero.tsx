@@ -1,86 +1,99 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
 import { ArrowRight, Music, ShieldCheck, Zap } from 'lucide-react';
 import './Hero.css';
 
+// Use every 4th frame from the 240-frame sequence
+const FRAME_COUNT = 240;
+const STEP = 4;
+const frames = Array.from(
+  { length: Math.floor(FRAME_COUNT / STEP) },
+  (_, i) => `/frames/ezgif-frame-${String((i * STEP) + 1).padStart(3, '0')}.jpg`
+);
+const TOTAL_FRAMES = frames.length; // 60
+
 const Hero: React.FC = () => {
-    return (
-        <section className="hero">
-            <div className="container hero-content">
-                <motion.div
-                    className="hero-text"
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6 }}
-                >
-                    <span className="badge">New: AI-Powered Matches</span>
-                    <h1>
-                        Discover Headphones <br />
-                        <span className="gradient-text">Tailored to You</span>
-                    </h1>
-                    <p className="hero-sub">
-                        Stop guessing based on sponsored reviews. Our intelligent recommendation engine analyzes your unique listening habits, budget, and comfort preferences to find your perfect audio companion.
-                    </p>
+  const [frameIdx, setFrameIdx] = useState(0);
+  const sectionRef = useRef<HTMLElement>(null);
 
-                    <div className="hero-actions">
-                        <Link to="/find" className="btn-primary flex-center">
-                            Find Your Perfect Headphones <ArrowRight size={18} style={{ marginLeft: '8px' }} />
-                        </Link>
-                        <Link to="/compare" className="btn-secondary">
-                            Compare Models
-                        </Link>
-                    </div>
+  // Scroll-driven frame advancement
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!sectionRef.current) return;
+      const rect = sectionRef.current.getBoundingClientRect();
+      const sectionH = sectionRef.current.offsetHeight;
+      // Pin starts when top hits viewport top, ends when bottom leaves
+      const scrolled = -rect.top;
+      const ratio = Math.max(0, Math.min(1, scrolled / sectionH));
+      setFrameIdx(Math.min(TOTAL_FRAMES - 1, Math.floor(ratio * TOTAL_FRAMES)));
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
-                    <div className="features-grid">
-                        <div className="feature-item">
-                            <div className="icon-box"><Music size={20} /></div>
-                            <span>Sound Profile Matching</span>
-                        </div>
-                        <div className="feature-item">
-                            <div className="icon-box"><Zap size={20} /></div>
-                            <span>Tech Spec Analysis</span>
-                        </div>
-                        <div className="feature-item">
-                            <div className="icon-box"><ShieldCheck size={20} /></div>
-                            <span>Unbiased Rankings</span>
-                        </div>
-                    </div>
-                </motion.div>
+  return (
+    <section className="hero" ref={sectionRef}>
+      {/* Pinned animation layer — always behind text */}
+      <div className="hero-frame-bg">
+        <div className="hero-glow" />
+        <img
+          src={frames[frameIdx]}
+          alt="Headphone"
+          className="frame-img"
+          draggable={false}
+        />
+        {/* Float cards */}
+        <div className="float-card glass-panel float-card--tl">
+          <span>Comfort Score</span>
+          <strong>9.8 / 10</strong>
+        </div>
+        <div className="float-card glass-panel float-card--br">
+          <span>Active Noise Canceling</span>
+          <strong style={{ color: 'var(--cyan)' }}>Enabled</strong>
+        </div>
+      </div>
 
-                <motion.div
-                    className="hero-visual"
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.8, delay: 0.2 }}
-                >
-                    <div className="glowing-circle"></div>
-                    <img
-                        src="/hero-headphone.png"
-                        alt="Premium Headphones"
-                        className="hero-img"
-                    />
-                    {/* Floating cards for visual interest */}
-                    <motion.div
-                        className="float-card card-1 glass-panel"
-                        animate={{ y: [0, -10, 0] }}
-                        transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
-                    >
-                        <span>Comfort Score</span>
-                        <strong>9.8/10</strong>
-                    </motion.div>
-                    <motion.div
-                        className="float-card card-2 glass-panel"
-                        animate={{ y: [0, -15, 0] }}
-                        transition={{ repeat: Infinity, duration: 5, ease: "easeInOut", delay: 1 }}
-                    >
-                        <span>Active Noise Canceling</span>
-                        <strong>Enabled</strong>
-                    </motion.div>
-                </motion.div>
+      {/* Scrolling content that overlaps the frame */}
+      <div className="hero-scroll-content container">
+        {/* First screen — tagline */}
+        <div className="hero-screen hero-screen--intro fade-up">
+          <div className="hero-tag">
+            <div className="hero-tag-dot" />
+            <span className="hero-tag-text">AI-Powered Matching</span>
+          </div>
+          <h1>
+            Discover Headphones<br />
+            <span className="gradient-text">Tailored to You</span>
+          </h1>
+          <p className="hero-sub">
+            Stop guessing based on sponsored reviews. Our intelligent engine analyzes your
+            listening profile to find your perfect audio companion.
+          </p>
+          <div className="hero-actions">
+            <Link to="/find" className="btn-primary flex-center">
+              🎧 Find My Headphones <ArrowRight size={16} style={{ marginLeft: 6 }} />
+            </Link>
+            <Link to="/compare" className="btn-secondary">⚖️ Compare Models</Link>
+          </div>
+          <div className="features-grid">
+            <div className="feature-item">
+              <div className="icon-box"><Music size={18} /></div>
+              <span>Sound Profile Matching</span>
             </div>
-        </section>
-    );
+            <div className="feature-item">
+              <div className="icon-box"><Zap size={18} /></div>
+              <span>Tech Spec Analysis</span>
+            </div>
+            <div className="feature-item">
+              <div className="icon-box"><ShieldCheck size={18} /></div>
+              <span>Unbiased Rankings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default Hero;

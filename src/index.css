@@ -1,45 +1,43 @@
-:root {
-  /* Default Dark Theme */
-  --bg-primary: #0a0a0a;
-  --bg-secondary: #171717;
-  --bg-card: #262626;
-  --text-primary: #ededed;
-  --text-secondary: #a1a1aa;
-  --accent: #3b82f6;
-  --accent-glow: rgba(59, 130, 246, 0.5);
-  --border: #404040;
-  --glass: rgba(255, 255, 255, 0.05);
+/* ========================================
+   SOUNDMATCH — GLOBAL DESIGN SYSTEM
+   Matching the SoundMatch dark blue/cyan theme
+   ======================================== */
 
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --bg:     #07070a;
+  --bg2:    #0d0d12;
+  --bg3:    #131318;
+  --border: rgba(255, 255, 255, 0.07);
+  --w90:    rgba(255, 255, 255, 0.9);
+  --w60:    rgba(255, 255, 255, 0.6);
+  --w35:    rgba(255, 255, 255, 0.35);
+  --w15:    rgba(255, 255, 255, 0.15);
+  --blue:   #0050FF;
+  --cyan:   #00D6FF;
+  --grad:   linear-gradient(135deg, #0050FF, #00D6FF);
+
+  /* Aliases for component compatibility */
+  --bg-primary:   #07070a;
+  --bg-secondary: #0d0d12;
+  --bg-card:      #131318;
+  --text-primary:   rgba(255,255,255,0.9);
+  --text-secondary: rgba(255,255,255,0.6);
+  --accent:       #00D6FF;
+  --accent-glow:  rgba(0, 214, 255, 0.3);
+  --glass:        rgba(255, 255, 255, 0.04);
+
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: dark;
-  color: var(--text-primary);
-  background-color: var(--bg-primary);
-
+  color: var(--w90);
+  background-color: var(--bg);
+  -webkit-font-smoothing: antialiased;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
-
-[data-theme="light"] {
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
-  --bg-card: #ffffff;
-  --text-primary: #0f172a;
-  --text-secondary: #64748b;
-  --accent: #2563eb;
-  --accent-glow: rgba(37, 99, 235, 0.3);
-  --border: #e2e8f0;
-  --glass: rgba(255, 255, 255, 0.7);
-  /* Lighter glass for light mode */
-}
-
-/* Rest of CSS remains same as established in Step 29/etc, I need to preserve it or append. 
-   Since write_to_file overwrites or I can use replace. 
-   I will REWRITE the whole file to be safe and cleaner than replace. */
 
 *,
 *::before,
@@ -49,16 +47,16 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
+  background: var(--bg);
+  color: var(--w90);
   min-height: 100vh;
   width: 100%;
-  flex-direction: column;
   overflow-x: hidden;
-  transition: background-color 0.3s, color 0.3s;
 }
 
 #root {
@@ -68,6 +66,12 @@ body {
   flex-direction: column;
 }
 
+/* ---- SCROLLBAR ---- */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #050505; }
+::-webkit-scrollbar-thumb { background: rgba(0,80,255,0.4); border-radius: 2px; }
+
+/* ---- BASE ---- */
 button {
   cursor: pointer;
   border: none;
@@ -80,53 +84,158 @@ a {
   color: inherit;
 }
 
+/* ---- LAYOUT ---- */
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 24px;
   width: 100%;
 }
 
+/* ---- GLASS ---- */
 .glass-panel {
-  background: var(--glass);
+  background: rgba(255,255,255,0.03);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border: 1px solid var(--border);
-  border-radius: 12px;
-  transition: background 0.3s, border-color 0.3s;
+  border-radius: 16px;
 }
 
+/* ---- BUTTONS ---- */
 .btn-primary {
-  background: var(--accent);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--grad);
+  color: #fff;
   font-weight: 600;
-  transition: all 0.2s;
-  box-shadow: 0 4px 12px var(--accent-glow);
+  font-size: 14px;
+  padding: 14px 28px;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  box-shadow: 0 4px 24px rgba(0, 80, 255, 0.4);
+  transition: transform 0.25s, box-shadow 0.25s;
+  text-decoration: none;
+  justify-content: center;
 }
 
 .btn-primary:hover {
-  filter: brightness(1.1);
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 36px rgba(0, 80, 255, 0.6);
 }
 
 .btn-secondary {
-  background: var(--bg-secondary);
-  color: var(--text-primary);
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--w60);
+  font-weight: 500;
+  font-size: 14px;
+  padding: 14px 24px;
+  border-radius: 100px;
   border: 1px solid var(--border);
-  transition: all 0.2s;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.25s;
+  text-decoration: none;
+  justify-content: center;
 }
 
 .btn-secondary:hover {
-  background: var(--border);
+  color: var(--w90);
+  border-color: rgba(0, 214, 255, 0.4);
+  background: rgba(0, 80, 255, 0.06);
 }
 
 .with-icon {
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.flex-center {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* ---- BADGE ---- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 14px;
+  background: rgba(0, 80, 255, 0.08);
+  border: 1px solid rgba(0, 80, 255, 0.2);
+  border-radius: 100px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  margin-bottom: 24px;
+}
+
+.badge::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--cyan);
+  flex-shrink: 0;
+}
+
+/* ---- GRADIENT TEXT ---- */
+.gradient-text {
+  background: linear-gradient(135deg, #fff 0%, #c8e0ff 65%, var(--cyan) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ---- FADE-IN ANIMATION ---- */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fadeUp 0.5s ease forwards; }
+
+/* ---- TOAST ---- */
+.toast {
+  position: fixed;
+  bottom: 90px;
+  right: 24px;
+  background: rgba(10, 10, 15, 0.95);
+  border: 1px solid rgba(0, 214, 255, 0.25);
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-size: 13px;
+  color: var(--w90);
+  z-index: 600;
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all 0.3s;
+  pointer-events: none;
+}
+.toast.show { transform: translateY(0); opacity: 1; }
+
+/* ---- GLOBAL ANIMATIONS ---- */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.fade-up {
+  animation: fadeUp 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease forwards;
 }
