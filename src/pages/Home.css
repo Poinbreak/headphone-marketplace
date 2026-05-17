@@ -1,147 +1,132 @@
+/* ========== HOME FEATURES ========== */
+
+.home-features-section {
+  padding: 60px 0 80px;
+  position: relative;
+  z-index: 11;
+  background: linear-gradient(180deg, rgba(10,10,20,0.4) 0%, rgba(10,10,20,0.8) 50%, var(--bg) 100%);
+  backdrop-filter: blur(10px);
+}
+
+.home-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .home-features {
+    grid-template-columns: 1fr;
+  }
+}
+
+.feat-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px;
+  transition: border-color 0.3s, background 0.3s;
+}
+
+.feat-card:hover {
+  border-color: rgba(0, 80, 255, 0.3);
+  background: rgba(0, 80, 255, 0.03);
+}
+
+.feat-icon {
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+
+.feat-title {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--w90);
+}
+
+.feat-body {
+  font-size: 13px;
+  color: var(--w35);
+  line-height: 1.65;
+}
+
+/* ========== HOW IT WORKS ========== */
+
 .section {
-    padding: 6rem 0;
-    border-bottom: 1px solid var(--glass);
+  padding: 80px 0;
+  position: relative;
+  z-index: 11;
+  background: var(--bg);
 }
 
 .section-header {
-    text-align: center;
-    margin-bottom: 4rem;
+  text-align: center;
+  margin-bottom: 48px;
+  position: relative;
+  z-index: 11;
 }
 
 .section-header h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+  font-size: clamp(24px, 4vw, 40px);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  background: linear-gradient(135deg, #fff 0%, #c8e0ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
 }
 
 .section-header p {
-    color: var(--text-secondary);
-    font-size: 1.1rem;
+  font-size: 15px;
+  color: var(--w35);
 }
 
-/* How It Works */
 .steps-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .steps-grid { grid-template-columns: 1fr; }
 }
 
 .step-card {
-    background: var(--bg-card);
-    padding: 2rem;
-    border-radius: 16px;
-    position: relative;
-    overflow: hidden;
-    border: 1px solid var(--border);
-    transition: transform 0.3s;
+  padding: 28px;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s;
 }
 
 .step-card:hover {
-    transform: translateY(-5px);
+  border-color: rgba(0, 214, 255, 0.3);
 }
 
 .step-number {
-    position: absolute;
-    top: -1rem;
-    right: -0.5rem;
-    font-size: 5rem;
-    font-weight: 800;
-    color: rgba(255, 255, 255, 0.03);
-    z-index: 0;
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  color: rgba(0, 80, 255, 0.15);
+  line-height: 1;
+  margin-bottom: 12px;
 }
 
 .step-icon {
-    color: var(--accent);
-    margin-bottom: 1.5rem;
-    position: relative;
-    z-index: 1;
+  font-size: 28px;
+  margin-bottom: 14px;
 }
 
 .step-card h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0.75rem;
-    position: relative;
-    z-index: 1;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--w90);
 }
 
 .step-card p {
-    color: var(--text-secondary);
-    line-height: 1.6;
-    position: relative;
-    z-index: 1;
-}
-
-/* Trust Section */
-.trust-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
-}
-
-.trust-text h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.trust-text p {
-    color: var(--text-secondary);
-    line-height: 1.7;
-    margin-bottom: 2rem;
-}
-
-.trust-list {
-    list-style: none;
-}
-
-.trust-list li {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    font-weight: 500;
-}
-
-.trust-list svg {
-    color: var(--accent);
-}
-
-.trust-visual {
-    padding: 2.5rem;
-}
-
-.match-visual {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.stat-row span {
-    display: block;
-    font-size: 0.9rem;
-    margin-bottom: 0.5rem;
-    color: var(--text-secondary);
-}
-
-.bar {
-    height: 8px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.bar .fill {
-    height: 100%;
-    background: var(--accent);
-    border-radius: 4px;
-    box-shadow: 0 0 10px var(--accent-glow);
-}
-
-
-
-@media (max-width: 968px) {
-
-    .steps-grid,
-    .trust-content {
-        grid-template-columns: 1fr;
-    }
+  font-size: 13px;
+  color: var(--w35);
+  line-height: 1.65;
 }

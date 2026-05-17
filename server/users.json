@@ -1,0 +1,30 @@
+{
+  "admin@soundmatch.com": {
+    "name": "Admin User",
+    "email": "admin@soundmatch.com",
+    "passwordHash": "$2b$10$3Y6Cn/1A.lFeyrRYo8cpdumCf./FA7sqwCGQfeuOkGv5ewO.E2AFu",
+    "role": "admin",
+    "createdAt": "2026-04-08T18:56:54.392Z"
+  },
+  "user@soundmatch.com": {
+    "name": "Test User",
+    "email": "user@soundmatch.com",
+    "passwordHash": "$2b$10$.e1lUrDFQwrRDjm6egl0Xu7krVrSMTCvigsXwcmYbo89mKb/4Bhb.",
+    "role": "user",
+    "createdAt": "2026-04-08T18:56:54.392Z"
+  },
+  "tsgughan18@gmail.com": {
+    "name": "Gughan",
+    "email": "tsgughan18@gmail.com",
+    "passwordHash": "$2b$10$04L5CiTfnZbCp83Alnmha.UdLMfRsoIGzXSV51fQLdDSigO4vEOGa",
+    "role": "user",
+    "createdAt": "2026-04-12T06:30:23.393Z"
+  },
+  "naveen@gmail.com": {
+    "name": "naveen",
+    "email": "naveen@gmail.com",
+    "passwordHash": "$2b$10$mjCDgb2Kj5tIUCIM1vHXPes8la7EZkln0qwWt7yy./Jj2U2E7TjWu",
+    "role": "user",
+    "createdAt": "2026-04-12T08:43:59.694Z"
+  }
+}

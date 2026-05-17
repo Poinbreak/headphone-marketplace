@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { headphones } from '../data/headphones';
-import { ArrowLeft, Check, X, Star, GitCompare } from 'lucide-react';
+import { ArrowLeft, Star, GitCompare } from 'lucide-react';
 import './ProductDetails.css';
 
 const ProductDetails: React.FC = () => {
@@ -9,37 +9,29 @@ const ProductDetails: React.FC = () => {
     const navigate = useNavigate();
     const product = headphones.find(h => h.id === id);
 
-    const [competitorPrice, setCompetitorPrice] = useState<number | null>(null);
-    const [aiPriceHint, setAiPriceHint] = useState<{price: number, reason: string} | null>(null);
+    const [analysis, setAnalysis] = useState<{
+      price: number;
+      reason: string;
+      competitorName: string;
+      competitorPrice: number;
+      buyPrediction?: { advice: string; period: string };
+    } | null>(null);
 
     useEffect(() => {
         if (!product) return;
 
-        fetch('http://localhost:5000/competitor-price')
-            .then(res => res.json())
-            .then(data => {
-                if (data && data.competitorPrice) {
-                    setCompetitorPrice(data.competitorPrice);
-
-                    // Once we have competitor price, dynamically fetch AI analysis
-                    fetch('http://localhost:5000/ai-price', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({
-                            productData: product,
-                            competitorPrice: data.competitorPrice
-                        })
-                    })
-                    .then(aiRes => aiRes.json())
-                    .then(aiData => {
-                        if (aiData && aiData.price) {
-                            setAiPriceHint(aiData);
-                        }
-                    })
-                    .catch(err => console.error('Error fetching AI price:', err));
-                }
-            })
-            .catch(err => console.error('Error fetching competitor price:', err));
+        fetch('http://localhost:5000/api/analyze-pricing', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ productData: product })
+        })
+        .then(res => res.json())
+        .then(data => {
+            if (data && data.price) {
+                setAnalysis(data);
+            }
+        })
+        .catch(err => console.error('Error fetching pricing analysis:', err));
     }, [product]);
 
     if (!product) {
@@ -87,12 +79,8 @@ const ProductDetails: React.FC = () => {
                         <span className="count">({product.reviews} reviews)</span>
                     </div>
                     <div className="price-block">₹{product.price}</div>
-                    {competitorPrice !== null && (
-                        <div style={{color: '#888', marginBottom: '8px', fontSize: '15px' }}>
-                            Competitor Price: ₹{competitorPrice}
-                        </div>
-                    )}
-                    {aiPriceHint !== null && (
+                    
+                    {analysis !== null && (
                         <div style={{ 
                             padding: '12px', 
                             borderRadius: '8px', 
@@ -100,12 +88,31 @@ const ProductDetails: React.FC = () => {
                             borderLeft: '4px solid var(--accent)',
                             marginBottom: '16px'
                         }}>
-                            <strong style={{ color: 'var(--accent)', fontSize: '1.1em' }}>
-                                AI Suggested Price: ₹{aiPriceHint.price}
+                            <div style={{ fontSize: '0.85em', color: '#aaa', marginBottom: '6px' }}>
+                                Closest Competitor: <strong>{analysis.competitorName}</strong> at ₹{analysis.competitorPrice}
+                            </div>
+                            <strong style={{ color: 'var(--accent)', fontSize: '1.1em', display: 'block', marginBottom: '4px' }}>
+                                AI Suggested Price: ₹{analysis.price}
                             </strong>
-                            <p style={{ margin: '8px 0 0 0', fontSize: '0.85em', opacity: 0.8, lineHeight: '1.4' }}>
-                                {aiPriceHint.reason}
+                            <p style={{ margin: '0 0 10px 0', fontSize: '0.85em', opacity: 0.9, lineHeight: '1.4' }}>
+                                {analysis.reason}
                             </p>
+                            
+                            {analysis.buyPrediction && (
+                                <div style={{
+                                    marginTop: '10px',
+                                    paddingTop: '10px',
+                                    borderTop: '1px solid rgba(255,255,255,0.1)',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    gap: '4px'
+                                }}>
+                                    <strong style={{ fontSize: '0.85em', color: '#fff' }}>When Should You Buy?</strong>
+                                    <div style={{ fontSize: '0.85em', color: '#e0e0e0' }}>
+                                        <span style={{color: 'var(--accent)'}}>{analysis.buyPrediction.advice}</span> — {analysis.buyPrediction.period}
+                                    </div>
+                                </div>
+                            )}
                         </div>
                     )}
 
@@ -121,7 +128,7 @@ const ProductDetails: React.FC = () => {
                     </p>
 
                     <div className="actions">
-                        <button className="btn-primary">Buy Now</button>
+                        <button className="btn-primary" onClick={() => navigate(`/buy?id=${product.id}`)}>Buy Now</button>
                         <button className="btn-secondary with-icon" onClick={handleCompare}>
                             <GitCompare size={16} /> Compare This
                         </button>
@@ -185,21 +192,6 @@ const ProductDetails: React.FC = () => {
                         </div>
                     </div>
                 )}
-
-                <div className="pros-cons-card glass-panel">
-                    <div className="pc-col">
-                        <h3>Pros</h3>
-                        {product.pros.map(pro => (
-                            <div key={pro} className="pc-row pro"><Check size={16} /> {pro}</div>
-                        ))}
-                    </div>
-                    <div className="pc-col">
-                        <h3>Cons</h3>
-                        {product.cons.map(con => (
-                            <div key={con} className="pc-row con"><X size={16} /> {con}</div>
-                        ))}
-                    </div>
-                </div>
             </div>
         </div>
     );

@@ -82,12 +82,11 @@
 
 .details-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
 }
 
 .spec-card,
-.pros-cons-card,
 .bass-card {
     padding: 2rem;
 }
@@ -112,34 +111,12 @@
     color: var(--text-secondary);
 }
 
-.pros-cons-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-
-.pc-col h3 {
-    margin-bottom: 1.5rem;
-}
-
-.pc-row {
-    display: flex;
-    gap: 0.75rem;
-    margin-bottom: 0.75rem;
-    font-size: 0.95rem;
-}
-
 @media (max-width: 900px) {
     .product-layout {
         grid-template-columns: 1fr;
     }
 
     .details-grid {
-        grid-template-columns: 1fr;
-    }
-
-
-    .pros-cons-card {
         grid-template-columns: 1fr;
     }
 }
